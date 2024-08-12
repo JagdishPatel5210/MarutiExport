@@ -1,0 +1,159 @@
+/* .container{
+  max-width: 1320px;
+  background-color: aquamarine;
+} */
+/* .container{
+    max-width: 1500px;
+} */
+:root{
+  --grey :rgb(68, 68, 68);
+}
+
+.nav1{
+ position: fixed;
+ background-color: rgb(95,95,95);
+ z-index: 1000;
+}
+
+.nav-item .nav-link{
+  color: aliceblue;
+}
+.nav-item .nav-link:hover{
+  color: black;
+}
+
+.imghaid{
+ width:35%;
+}
+
+.main{
+ padding: 20% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/Back1.png);
+}
+.ican :hover{
+ color: black;
+ border-bottom: 5px;
+}
+
+.head1{
+ margin: 15px;
+ font-size:63px;
+ color:var(--grey);
+
+}
+.discription{
+ margin: 15px;
+ color: var(--grey);
+ font-size: 22px;
+}
+
+.pillars{
+ padding: 15% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back2.png); 
+}
+.secondhead{
+ margin: 15px;
+ font-size:45px;
+ color:rgb(70, 62, 62);
+}
+
+.mission{
+ padding: 15% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back_3.png); 
+}
+
+.vision{
+
+ padding: 12% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back_4.png);  
+}
+
+.culture{
+ padding: 18% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back-5.png);  
+}
+
+.step{
+ padding: 15% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back-5.png);  
+}
+
+.process{
+ padding: 20% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back-7.png);  
+}
+
+.sorting{
+ padding: 27% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back-8.png);  
+}
+
+.mark{
+ padding: 10% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back-9.png);  
+}
+
+
+.sowing{
+ padding: 4% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back10.png);  
+}
+
+
+
+.polish{
+ padding: 25% 5% 5% 5% ;
+ height: 500px;
+ border-radius: 3%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image:url(./assets/Images/Home/back11.png);  
+}
+
+.infox{
+ background-color: var(--grey);
+}
+
+
+
+

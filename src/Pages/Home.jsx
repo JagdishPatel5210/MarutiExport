@@ -29,6 +29,7 @@ function Home() {
     return (
         <>
 
+
         <div data-aos="fade-right"></div>
             <div className="container-fluid  nav1">
                 <div className='container'>

@@ -1,10 +1,5 @@
-/* .container{
-  max-width: 1320px;
-  background-color: aquamarine;
-} */
-/* .container{
-    max-width: 1500px;
-} */
+
+
 :root{
   --grey :rgb(68, 68, 68);
 }
@@ -35,8 +30,8 @@
  background-image:url(./assets/Images/Home/Back1.png);
 }
 .ican :hover{
- color: black;
- border-bottom: 5px;
+ color: rgb(241, 241, 65);
+
 }
 
 .head1{
@@ -49,7 +44,10 @@
  margin: 15px;
  color: var(--grey);
  font-size: 22px;
+
 }
+
+
 
 .pillars{
  padding: 15% 5% 5% 5% ;
@@ -100,6 +98,11 @@
  background-repeat: no-repeat;
  background-size: cover;
  background-image:url(./assets/Images/Home/back-5.png);  
+}
+
+ul li a{
+  text-decoration: none;
+  color: rgb(68, 68, 68) ;
 }
 
 .process{

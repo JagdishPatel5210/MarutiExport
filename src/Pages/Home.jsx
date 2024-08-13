@@ -35,8 +35,8 @@ function Home() {
             <div className="container-fluid  nav1">
                 <div className='container'>
                     <div className="row d-flex py-2">
-                            <div className="col-lg-4">
-                                <a className="navbar-brand  text-center" href="#" id='home'><img src={logoImage} alt="logo" className="w-25" /></a>
+                            <div className="col-lg-4 ">
+                                <a className="navbar-brand " href="#" id='home'><img src={logoImage} alt="logo" className="w-25 " /></a>
                             </div>
                             <div className="col-lg-8">
                                 <ul className="nav pt-4 d-flex justify-content-around">
@@ -57,14 +57,14 @@ function Home() {
                                     <li className="nav-item">
                                         <a className="nav-link" href="#Contect"><h5>Contect Us</h5></a>
                                     </li>
-                                    <li className='d-flex fs-5 ican'>
-                                    <a href="#" className="ps-3 text-light ican"> <GrInstagram /> </a>
-                                    <a href="#" className="ps-3 text-light"> <FaFacebookF /> </a>
-                                    <a href="#" className="ps-3 text-light">  <FaLinkedinIn /> </a> 
-                                    <a href="#" className="ps-3 text-light"> <FaTelegram /></a> 
-                                    <a href="#" className="ps-3 text-light"> <BsWhatsapp /> </a>
+                                    <li className='d-flex pt-2 ican'>
+                                    <a href="#" className="ps-2 text-light"> <GrInstagram /> </a>
+                                    <a href="#" className="ps-2 text-light"> <FaFacebookF /> </a>
+                                    <a href="#" className="ps-2 text-light">  <FaLinkedinIn /> </a> 
+                                    <a href="#" className="ps-2 text-light"> <FaTelegram /></a> 
+                                    <a href="#" className="ps-2 text-light"> <BsWhatsapp /> </a>
                                     </li>
-                                <li className='m-2'> <button type="button" href="#" className="btn" onClick={goToLogin}>LOGIN</button></li>
+                                <li className='m-1 ps-4'> <button type="button" href="#" className="btn btn-primary" onClick={goToLogin}>LOGIN</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -73,16 +73,16 @@ function Home() {
 
             <div className="container-fluid pt-5" >
                 <div className="container p-5" id='home'>
-                    <div className="row py-4 my-5 " data-aos="fade-up" >
-                        <div className="col-md-6 text-center main">
+                    <div className="row py-4 my-5 " >
+                        <div className="col-md-6 text-center main"  data-aos="zoom-in" data-aos-duration="3000">
                             <img src={diamondImage} alt="diamond1" className="img-fluid w-100  rounded-4 " data-aos="fade-up"  />
                         </div>
-                        <div className="col-md-6 ps-4" data-aos="fade-up"  data-aos-delay="300">
-                            <h1 className='head1 pt-2 ' >Maruti Export: A Legacy of Diamonds</h1>
+                        <div className="col-md-6 ps-4" data-aos="zoom-in"  data-aos-duration="3000">
+                            <h1 className='head1 pt-2' >Maruti Export: A Legacy of Diamonds</h1>
                             <p className='discription '>
                                 Established in 2019,
-                                <a href='#'><span>Maruti Export</span></a>
-                                is a well-recognized and one of the most trusted diamond manufacturers and exporters in India. Built on the legacy of faith, trust, honesty,
+                                <a href='#'><span >  Maruti Export  </span></a>
+                                 is a well-recognized and one of the most trusted diamond manufacturers and exporters in India. Built on the legacy of faith, trust, honesty,
                                 transparency and perfection. At Maruti Export, we try to integrate the latest technology with our conventional values to turn stones into a perfect diamond.
                             </p>
                         </div>
@@ -91,14 +91,14 @@ function Home() {
 
                 <div className="container p-5">
                     <div className="row py-5 my-5">
-                        <div className="col-md-6 " data-aos="fade-up"  data-aos-delay="300">
+                        <div className="col-md-6 "  data-aos="flip-left"  data-aos-duration="3000">
                             <h1 className='secondhead pt-4'>Our Foundation: Pillars of Trust</h1>
                             <p className='discription pt-5'>
                                 Maruti Export was built on the foundation of four key pillars -faith, trust, honesty & transparency.
                                 The 4 main pillars are on which the foundation of the Maruti Export was built and will sustain forever.
                             </p>
                         </div>
-                        <div className="col-md-6  pillars " data-aos="fade-up"  >
+                        <div className="col-md-6  pillars " data-aos="flip-right" data-aos-duration="3000" >
                             <img src={pillarsImage} alt="pillars2" className="img-fluid w-100  rounded-4" />
                         </div>
                     </div>
@@ -107,10 +107,10 @@ function Home() {
 
                 <div className="container p-5">
                     <div className="row py-5 my-5 ">
-                        <div className="col-md-6 mission wow  animate__fadeInLeftBig" data-wow-duration="3s">
+                        <div className="col-md-6 mission" data-aos="fade-right" data-aos-duration="3000" >
                             <img src={missionImage} alt="mission3" className="img-fluid w-100  rounded-4 " />
                         </div>
-                        <div className="col-md-6 ps-4 wow animate__fadeInLeft" data-wow-duration="3s">
+                        <div className="col-md-6 ps-4"  data-aos="fade-left" data-aos-duration="3000" >
                             <h1 className='secondhead pt-5'>Our Mission: Excellence in Diamonds</h1>
                             <p className='discription pt-5'>
                                 Our Mission is to be the leading diamond manufacturer in the industry while guaranteeing maximum
@@ -124,7 +124,7 @@ function Home() {
 
                 <div className="container p-5" id='Quality'>
                     <div className="row py-5 my-5">
-                        <div className="col-md-6 pt-5 wow " data-wow-duration="3s">
+                        <div className="col-md-6 pt-5 " data-aos="flip-up" data-aos-duration="3000" >
                             <h1 className='secondhead pt-4'>Our Vision: Shaping the Future of Diamonds</h1>
                             <p className='discription pt-5'>
                                 Maruti Export's vision is to adopt the latest manufacturing technology and innovative management concepts
@@ -132,7 +132,7 @@ function Home() {
                                 industry standards for the highest quality and most efficient diamonds.
                             </p>
                         </div>
-                        <div className="col-md-6  vision wow " data-wow-duration="3s">                                        
+                        <div className="col-md-6  vision " data-aos="flip-down" data-aos-duration="3000">                                        
                             <img src={visionImage} alt="vision4" className="img-fluid w-100 rounded-4" />
                         </div>
                     </div>
@@ -142,10 +142,10 @@ function Home() {
 
                 <div className="container p-4">
                     <div className="row my-5 ">
-                        <div className="col-md-6  culture" data-wow-duration="3s">
+                        <div className="col-md-6  culture" data-aos="flip-right" data-aos-duration="3000"  >
                             <img src={cultureImage} alt="culture5" className="img-fluid w-100 rounded-4" />
                         </div>
-                        <div className="col-md-6" data-wow-duration="3s">
+                        <div className="col-md-6" data-aos="flip-left"  data-aos-duration="3000" >
                             <h1 className='secondhead '>A Culture of Performance</h1>
                             <p className='discription'>
                                 A performance-oriented culture is rooted in our company's DNA, making us globally recognized as the preferred supplier
@@ -166,7 +166,7 @@ function Home() {
 
                 <div className="container p-5 " id='Process'>
                     <div className="row py-5 my-5">
-                        <div className="col-md-6" data-wow-duration="3s">
+                        <div className="col-md-6" data-aos="zoom-in-right" data-aos-duration="3000"  >
                             <h1 className='secondhead pt-5'>QUALITY AT EACH STEP</h1>
                             <ul className='discription text-black ps-3 pt-3 list-unstyled'>
                                 <li> <a href="#craftmenship" className=""> CRAFTMENSHIP </a></li>
@@ -177,7 +177,7 @@ function Home() {
                                 <li><a href="#monitoring" className=""> MONITORING </a></li>
                             </ul>
                         </div>
-                        <div className="col-md-6  step" data-wow-duration="3s">
+                        <div className="col-md-6  step" data-aos="zoom-in-right" data-aos-duration="3000">
                             <img src={stepImage} alt="step1" className="img-fluid w-100 rounded-4" />
                         </div>
                     </div>
@@ -188,10 +188,10 @@ function Home() {
 
                 <div className="container pt-5" id='craftmenship'>
                     <div className="row py-5 my-5 ">
-                        <div className="col-md-6 process" data-wow-duration="3s">
+                        <div className="col-md-6 process" data-aos="fade-right" data-aos-duration="3000"  >
                             <img src={processImage} alt="process7" className="img-fluid w-100  rounded-4" />
                         </div>
-                        <div className="col-md-6 ps-4 " data-wow-duration="3s">
+                        <div className="col-md-6 ps-4 " data-aos="fade-right" data-aos-duration="3000" >
                             <h1 className='secondhead '>Craftsmanship: The Heart of Our Process</h1>
                             <p className='discription'>
                                 Our skilled artisans are driven by a desire to create the most exquisite diamond. The vast majority of our highly
@@ -209,7 +209,7 @@ function Home() {
 
                 <div className="container p-5" id='selecting'>
                     <div className="row py-5 my-5">
-                        <div className="col-md-6 " data-wow-duration="3s">
+                        <div className="col-md-6 "  data-aos="fade-left"  data-aos-duration="3000">
                             <h1 className='secondhead pt-5'>Selecting and Sorting: The First Step</h1>
                             <p className='discription pt-5'>
                                 The first and vital step in the diamond cutting and polishing process is the analysis of the rough diamond. This step requires
@@ -218,7 +218,7 @@ function Home() {
                                 evaluated by a trained eye capable of determining the finest potential cut for the stone.
                             </p>
                         </div>
-                        <div className="col-md-6  sorting" data-wow-duration="3s">
+                        <div className="col-md-6  sorting" data-aos="fade-left" data-aos-duration="3000">
                             <img src={selectImage} alt="select8" className="img-fluid w-100 rounded-4" />
                         </div>
                     </div>
@@ -228,10 +228,10 @@ function Home() {
 
                 <div className="container pb-5" id='marking'>
                     <div className="row py-5 my-5 ">
-                        <div className="col-md-6 mark" data-wow-duration="3s">
+                        <div className="col-md-6 mark"  data-aos="fade-right" data-aos-duration="3000" >
                             <img src={markImage} alt="mark9" className="img-fluid w-100 rounded-4" />
                         </div>
-                        <div className="col-md-6 ps-4 " data-wow-duration="3s">
+                        <div className="col-md-6 ps-4 "  data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead pt-5'>Marking: Precision for Perfection</h1>
                             <p className='discription'>
                                 One of the most important phases in the production process is marking. It is accomplished by the use of 3D laser technology.
@@ -246,7 +246,7 @@ function Home() {
 
                 <div className="container" id='sawing'>
                     <div className="row py-5 my-5">
-                        <div className="col-md-6" data-wow-duration="3s">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-5'>Sawing: Shaping the Diamond</h1>
                             <p className='discription pt-5'>
                                 Sawing is the process of separating a diamond rough into separate pieces that will be polished as individual diamonds. During the design stage,
@@ -255,7 +255,7 @@ function Home() {
                                 nil, which would otherwise have resulted in a significant decrease in its worth.
                             </p>
                         </div>
-                        <div className="col-md-6 sowing" data-wow-duration="3s">
+                        <div className="col-md-6 sowing" data-aos="fade-left"data-aos-duration="3000">
                             <img src={sowing1Image} alt="sowing9-a" className="img-fluid w-75 m-3 rounded-4" />
                             <img src={sowing2Image} alt="sowing9-b" className="img-fluid w-75  m-3 rounded-4" />
                         </div>
@@ -267,10 +267,10 @@ function Home() {
 
                 <div className="container p-5" id='polishing'>
                     <div className="row py-5 my-5 ">
-                        <div className="col-md-6 polish " data-wow-duration="3s">
+                        <div className="col-md-6 polish "  data-aos="fade-right"  data-aos-duration="3000">
                             <img src={polishImage} alt="mark9" className="img-fluid w-100 rounded-4" />
                         </div>
-                        <div className="col-md-6 ps-4" data-wow-duration="3s">
+                        <div className="col-md-6 ps-4"  data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead pt-5'>Polishing: Bringing Out the Sparkle</h1>
                             <p className='discription'>
                                 Also known as brillianteering, polishing is the final stage of the cutting process. The diamond's final facets are polished
@@ -292,13 +292,13 @@ function Home() {
                 <div className="container">
                     <div className="row text-light py-5">
                                 <div className="row text-light pt-5">
-                                    <div className="col-lg-3 pt-5 ">
+                                    <div className="col-lg-4 pt-5 " data-aos="zoom-in" data-aos-duration="3000">
                                         <img src={logoImage} alt="logo2" className="w-75 py-5" />
                                     </div>
                                     <div className="col-lg-3">
                                         <h2 className='py-4'>Contact Us :-</h2>
-                                        <div className='pt-3'><IoMdMail /> contactus@Maruti Export.com</div>
-                                        <div className='pt-3'><IoCall /> +91 73861 58615</div>
+                                        <div className='pt-3 '><IoMdMail />  contactus@Maruti Export.com</div>
+                                        <div className='pt-3'><IoCall />  +91 73861 58615</div>
 
                                         <div className="d-flex fs-3  m-2 "> 
                                          <a href="#" className="pe-3 text-light"> <FaFacebookF /></a>
@@ -309,7 +309,7 @@ function Home() {
                                     </div>
 
 
-                                    <div className="col-lg-3 ">
+                                    <div className="col-lg-2 ">
                                         <h2 className='py-4'>Information</h2>
                                         <ul className="m-2 list-unstyled ">
                                             <li className="mt-2"> <a href="#" className="terms text-light"> FAQ</a></li>

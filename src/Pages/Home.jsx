@@ -42,7 +42,8 @@ function Home() {
 
 
     const goToLogin = () => {
-        window.location.href = 'http://localhost:3001/login';
+        debugger
+        window.location.href = 'http://app.marutiexp.com/login';
     }
 
 
@@ -84,8 +85,8 @@ function Home() {
                                 </li>
                                 <li className='  ps-4'>
                                     <div className="button-grid text-center ">
-                                        <button class="button button--animated bg-dark " onClick={goToLogin}>
-                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1' />
+                                        <button class="button button--animated bg-dark " onClick={(() => goToLogin())}>
+                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
                                         </button>
                                     </div>
                                 </li>
@@ -360,9 +361,10 @@ function Home() {
                                         <input type="email" className="form-control" id="email" placeholder="Enter email" name="email"/>
                                     </div>
                                     <div className="button-grid text-center ">
-                                        <button class="button button--animated bg-dark">
-                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1' />
+                                        <button class="button button--animated bg-dark "  onClick={(() => goToLogin())}>
+                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
                                         </button>
+                                        
                                     </div>
                                 </form>
                             </div>

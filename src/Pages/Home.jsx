@@ -42,7 +42,7 @@ function Home() {
 
 
     const goToLogin = () => {
-        window.location.href = 'http://localhost:3001/login';
+        window.location.href = 'http://app.marutiexp.com/login';
     }
 
 

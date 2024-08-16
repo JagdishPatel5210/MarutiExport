@@ -24,7 +24,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { IoEarthSharp } from "react-icons/io5";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaUserAlt } from "react-icons/fa";
-import BIRDS from 'vanta/dist/vanta.birds.min'
+import BIRDS from 'vanta/dist/vanta.birds.min';
 import WAVES from 'vanta/dist/vanta.waves.min.js';
 
 
@@ -60,8 +60,8 @@ function Home() {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"><h5>Home</h5></a>
                                 </li>
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link" href="#about"><h5>About  </h5></a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#about"><h5>About</h5></a>
                                 </li>
                                 <li className="nav-item">
                                 </li>
@@ -85,7 +85,7 @@ function Home() {
                                 <li className='  ps-4'>
                                     <div className="button-grid text-center ">
                                         <button class="button button--animated bg-dark " onClick={goToLogin}>
-                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
+                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1' />
                                         </button>
                                     </div>
                                 </li>
@@ -193,7 +193,7 @@ function Home() {
                         <div className="col-md-6" data-aos="zoom-in-right" data-aos-duration="3000" >
                             <h1 className='secondhead pt-5'>QUALITY AT EACH STEP</h1>
                             <ul className='discription text-black ps-3 pt-3 list-unstyled'>
-                                <li> <a href="#craftmenship"> <MdArrowForwardIos /> CRAFTMENSHIP </a></li>
+                                <li> <a href="#craftmenship"> <MdArrowForwardIos /> CRAFTMANSHIP </a></li>
                                 <li> <a href="#selecting"> <MdArrowForwardIos /> SELECTING / SORTING </a></li>
                                 <li> <a href="#marking"> <MdArrowForwardIos /> MARKING </a></li>
                                 <li><a href="#sawing"> <MdArrowForwardIos /> SAWING </a></li>
@@ -318,9 +318,11 @@ function Home() {
                 <div className="container">
                     <div className="row text-light py-3">
                         <div className="row text-light">
+
                             <div className="col-lg-3">
                                 <img src={logoImage} alt="logo2" className="w-75 py-5 text-center" />
                             </div>
+
                             <div className="col-lg-3 text-start ">
                                 <h2 className='py-4'>Contact Us :-</h2>
                                 <div className='pt-3 fs-5 cont'> <IoEarthSharp /> marutiexport.com</div>
@@ -355,16 +357,13 @@ function Home() {
                                     </div>
                                     <div className="my-4 d-flex">
                                         <IoMdMail className='fs-5 m-2 cont' />
-                                        <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
+                                        <input type="email" className="form-control" id="email" placeholder="Enter email" name="email"/>
                                     </div>
                                     <div className="button-grid text-center ">
                                         <button class="button button--animated bg-dark">
-                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
+                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1' />
                                         </button>
                                     </div>
-
-
-                                    {/* <div className="p-3 text-center"><button type="submit" className="btn btn-primary border-0 fs-5 login ">LOGIN</button></div> */}
                                 </form>
                             </div>
 

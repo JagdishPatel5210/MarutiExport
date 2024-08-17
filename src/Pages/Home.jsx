@@ -349,7 +349,7 @@ function Home() {
 
                             <div className="col-lg-3">
                                 <h2 className='py-4 text-center'>Contact With us</h2>
-                                <form >
+                                <form>
                                     <div className="my-4 d-flex">
                                         <FaUserAlt className='fs-5 m-2 cont' />
                                         <input type="text" className="form-control" id="name" placeholder="Enter Name" name="name" />
@@ -359,7 +359,7 @@ function Home() {
                                         <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
                                     </div>
                                     <div className="button-grid text-center ">
-                                        <button class="button button--animated bg-dark "  onClick={(() => goToLogin())}>
+                                        <button type='submit' class="button button--animated bg-dark"  onClick={((e) => { e.preventDefault(); goToLogin()})}>
                                             <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
                                         </button>
                                         

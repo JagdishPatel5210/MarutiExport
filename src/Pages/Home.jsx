@@ -27,6 +27,17 @@ import { FaUserAlt } from "react-icons/fa";
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import WAVES from 'vanta/dist/vanta.waves.min.js';
 
+import doteImage from "../assets/Images/Home/back12.jpg";
+import rufeImage from "../assets/Images/Home/diomand-56.jpg";
+import rufe1Image from "../assets/Images/Home/Victor_Rough.png";
+import rufe2Image from "../assets/Images/Home/diamond-131.jpg";
+
+import dote2Image from "../assets/Images/Home/diomand-222.jpg";
+import our2Image from "../assets/Images/Home/culture5.png";
+import pill2Image from "../assets/Images/Home/diamond-225.jpg";
+import well2Image from "../assets/Images/Home/download-212.jpeg";
+
+
 
 function Home() {
     useEffect(() => {
@@ -56,7 +67,7 @@ function Home() {
                         <div className="col-lg-4 ">
                             <a className="navbar-brand " href="#" id='home'><img src={logoImage} alt="logo" className="w-25 " /></a>
                         </div>
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 col">
                             <ul className="nav pt-4 d-flex ">
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"><h5>Home</h5></a>
@@ -96,41 +107,61 @@ function Home() {
                 </div>
             </div>
 
-            <div className="container-fluid pt-5 " id='vanta1'>
-                <div className="container p-5 ">
-                    <div className="row py-4 my-5 " >
-                        <div className="col-md-6 text-center main" data-aos="zoom-in" data-aos-duration="3000">
-                            <img src={diamondImage} alt="diamond1" className="img-fluid w-100  rounded-4 " data-aos="fade-up" />
-                        </div>
-                        <div className="col-md-6 ps-4" data-aos="zoom-in" data-aos-duration="3000">
-                            <h1 className='head1 pt-2' >Maruti Export: A Legacy of Diamonds</h1>
-                            <p className='discription '>
+
+         
+         <div className="container-fluid pt-5 " >      -- id='vanta1'--
+            <div className="container pt-5"  id='home'>
+                 <div className="row pt-5">
+                    <div className="col-lg-7"  data-aos="zoom-in" data-aos-duration="3000">
+                        <div className='img-stak position-relative pt-5'>
+                        <img src={doteImage} alt="" className="img-fluid rounded-4  stak-img img-1" />
+                        <img src={rufe1Image} alt="" className="img-fluid rounded-4  stak-img img-2" />
+                        <img src={rufe2Image} alt="" className="img-fluid stak-img  rounded-4 img-3" />
+                        <img src={rufeImage} alt="rufe" className="img-fluid rounded-4  stak-img img-4"/>
+                      </div>
+                    </div>
+                    <div className="col-lg-5 pt-5" data-aos="zoom-in" data-aos-duration="3000">
+                    <h1 className='head1 pt-5'>Maruti Export: A Legacy of Diamonds</h1>
+                            <p className='discription pt-2'>
                                 Established in 2019,
                                 <a href='#' className='text-black text-decoration-none fw-bold'><span>  Maruti Export  </span></a>
                                 is a well-recognized and one of the most trusted diamond manufacturers and exporters in India. Built on the legacy of faith, trust, honesty,
                                 transparency and perfection. At Maruti Export, we try to integrate the latest technology with our conventional values to turn stones into a perfect diamond.
                             </p>
-                        </div>
                     </div>
-                </div>
+                 </div>
+            </div>
+         </div>
 
-                <div className="container p-5 mt-5 " id='about'>
-                    <div className="row py-5 my-5 ">
-                        <div className="col-md-6 " data-aos="flip-left" data-aos-duration="3000">
-                            <h1 className='secondhead pt-4'>Our Foundation: Pillars of Trust</h1>
-                            <p className='discription pt-5'>
+
+
+
+            <div className="container-fluid fount "> 
+            <div className="container">
+            <div className="row">
+                <div className="col-lg-5 pt-5"  data-aos="flip-left" data-aos-duration="3000">
+                <h1 className='secondhead pt-3'>Our Mission: Excellence in Diamonds</h1>
+                    <p className='discription pt-2'>
                                 Maruti Export was built on the foundation of four key pillars -faith, trust, honesty & transparency.
                                 The 4 main pillars are on which the foundation of the Maruti Export was built and will sustain forever.
                             </p>
-                        </div>
-                        <div className="col-md-6  pillars " data-aos="flip-right" data-aos-duration="3000" >
-                            <img src={pillarsImage} alt="pillars2" className="img-fluid w-100  rounded-4" />
-                        </div>
-                    </div>
                 </div>
+                <div className="col-lg-7">
+                <div className='img-stak position-relative pt-5'  data-aos="flip-right" data-aos-duration="3000" >
+                        <img src={dote2Image} alt="" className="img-fluid rounded-4  stak-img imag-1" />
+                        <img src={pill2Image} alt="" className="img-fluid rounded-4  stak-img imag-2" />
+                        <img src={well2Image} alt="" className="img-fluid rounded-4  stak-img  imag-3" />
+                        <img src={our2Image} alt="rufe" className="img-fluid rounded-4  stak-img imag-4"/>
+                      </div>
+                </div>
+            </div>
+            </div>
+            </div>
 
 
-                <div className="container p-5 mt-5">
+            <div className="container-fluid pt-5 " >
+
+                <div className="container p-5 mt-5" id='about'>
                     <div className="row py-5 my-5 ">
                         <div className="col-md-6 mission" data-aos="fade-right" data-aos-duration="3000" >
                             <img src={missionImage} alt="mission3" className="img-fluid w-100  rounded-4 " />
@@ -189,7 +220,7 @@ function Home() {
 
 
 
-                <div className="container p-5  " id='Process'>
+                <div className="container p-5 " id='Process'>
                     <div className="row py-5 my-5">
                         <div className="col-md-6" data-aos="zoom-in-right" data-aos-duration="3000" >
                             <h1 className='secondhead pt-5'>QUALITY AT EACH STEP</h1>
@@ -217,7 +248,7 @@ function Home() {
                             <img src={processImage} alt="process7" className="img-fluid w-100  rounded-4" />
                         </div>
                         <div className="col-md-6 ps-4 " data-aos="fade-right" data-aos-duration="3000" >
-                            <h1 className='secondhead '>Craftsmanship: The Heart of Our Process</h1>
+                            <h1 className='secondhead'>Craftsmanship: The Heart of Our Process</h1>
                             <p className='discription'>
                                 Our skilled artisans are driven by a desire to create the most exquisite diamond. The vast majority of our highly
                                 experienced workforce has been with us for many years, ensuring continuity, competence, and quality across the board.
@@ -326,10 +357,10 @@ function Home() {
 
                             <div className="col-lg-3 text-start ">
                                 <h2 className='py-4'>Contact Us :-</h2>
-                                <div className='pt-3 fs-5 cont'> <IoEarthSharp /> marutiexport.com</div>
-                                <div className='pt-3 fs-5 cont'><IoCall />  +91 73861 58615</div>
+                                <div className='pt-3 cont'> <IoEarthSharp /> marutiexport.com</div>
+                                <div className='pt-3 cont'><IoCall />  +91 73861 58615</div>
 
-                                <div className="d-flex fs-3 m-2">
+                                <div className="d-flex fs-5 m-2">
                                     <a href="#" className="pe-3 text-light"> <FaFacebookF className='cont' /></a>
                                     <a href="#" className="pe-3 text-light"> <GrInstagram className='cont' />  </a>
                                     <a href="#" className="pe-3 text-light"> <BsWhatsapp className='cont' /> </a>
@@ -339,7 +370,7 @@ function Home() {
 
                             <div className="col-lg-3 text-start">
                                 <h2 className='py-4'>Information</h2>
-                                <ul className="m-2 list-unstyled fs-5">
+                                <ul className="m-2 list-unstyled ">
                                     <li className="mt-2 "> <a href="#" className="cont"> <MdArrowForwardIos /> FAQ</a></li>
                                     <li className="mt-2"><a href="#" className="cont"> <MdArrowForwardIos /> About Us</a></li>
                                     <li className="mt-2"><a href="#" className="cont"> <MdArrowForwardIos /> Our collection</a></li>
@@ -361,7 +392,7 @@ function Home() {
                                         <input type="email" className="form-control" id="email" placeholder="Enter email" name="email"/>
                                     </div>
                                     <div className="button-grid text-center ">
-                                        <button class="button button--animated bg-dark "  onClick={(() => goToLogin())}>
+                                        <button class="button button--animated bg-dark " onClick={(() => goToLogin())}>
                                             <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
                                         </button>
                                         

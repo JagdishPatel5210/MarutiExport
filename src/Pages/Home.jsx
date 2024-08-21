@@ -1,30 +1,17 @@
 import React, { useEffect } from 'react';
-import diamondImage from '../assets/Images/Home/Daimond.png';
-import pillarsImage from '../assets/Images/Home/pillars2.png';
-import missionImage from '../assets/Images/Home/mission3.jpg';
-import visionImage from '../assets/Images/Home/vision_4.png';
-import cultureImage from '../assets/Images/Home/culture5.png';
 import stepImage from '../assets/Images/Home/step-6.png';
-import processImage from '../assets/Images/Home/process-7.jpg';
-import selectImage from '../assets/Images/Home/shorting8.png';
-import markImage from '../assets/Images/Home/marking9.png';
-import sowingImage from "../assets/Images/Home/back10.png";
-import sowing1Image from '../assets/Images/Home/sawing10a.jpg';
-import sowing2Image from '../assets/Images/Home/sawing10b.png';
-import polishImage from '../assets/Images/Home/polish-11.png.jpg';
 import logoImage from '../assets/Images/Home/LogoWhite.png';
-import { IoCall } from "react-icons/io5";
-import { IoMdMail } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { BsWhatsapp } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { MdArrowForwardIos } from "react-icons/md";
-import { IoEarthSharp } from "react-icons/io5";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { IoEarthSharp } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
-import BIRDS from 'vanta/dist/vanta.birds.min';
+import { IoMdMail } from "react-icons/io";
 import WAVES from 'vanta/dist/vanta.waves.min.js';
 
 import doteImage from "../assets/Images/Home/back12.jpg";
@@ -36,6 +23,46 @@ import dote2Image from "../assets/Images/Home/diomand-222.jpg";
 import our2Image from "../assets/Images/Home/culture5.png";
 import pill2Image from "../assets/Images/Home/diamond-225.jpg";
 import well2Image from "../assets/Images/Home/download-212.jpeg";
+
+import dote3Image from "../assets/Images/Home/background-3.jpg";
+import missn31Image from "../assets/Images/Home/mission3.jpg";
+import missn32Image from "../assets/Images/Home/How Diamonds-213.jpg";
+import missn33Image from "../assets/Images/Home/14075061692_9ed7ee1cac_o.jpg";
+
+import dote4Image from "../assets/Images/Home/background-6.jpg";
+import pilr41Image from "../assets/Images/Home/pillars2.png";
+import pilr42Image from "../assets/Images/Home/StockCake-Lustrous Diamond Brilliance_1724156918.jpg";
+import pilr43Image from "../assets/Images/Home/StockCake-Cradling Precious Gem_1724156976.jpg";
+
+import dote5Image from "../assets/Images/Home/background-52.jpg";
+import cult21Image from "../assets/Images/Home/diamonds-4040800_1920.jpg";
+import cult22Image from "../assets/Images/Home/StockCake-Sparkling Diamond Brilliance_1724156554.jpg";
+import cult23Image from "../assets/Images/Home/StockCake-Sparkling Solitaire Diamond_1724156478.jpg";
+
+import dote6Image from "../assets/Images/Home/172072.jpg";
+import craf11Image from "../assets/Images/Home/process-7.jpg";
+import craf12Image from "../assets/Images/Home/diomand-54.jpg";
+import craf13Image from "../assets/Images/Home/diomand-53.jpg";
+
+import dote7Image from "../assets/Images/Home/backgrund-32.jpg";
+import step11Image from "../assets/Images/Home/diamond61.jpeg";
+import step12Image from "../assets/Images/Home/step-66.jpg";
+import step13Image from "../assets/Images/Home/shorting8.png";
+
+import dot1Image from "../assets/Images/Home/marking33.jpg";
+import mark11Image from "../assets/Images/Home/marking9.png";
+import mark12Image from "../assets/Images/Home/marking44.jpg";
+import mark13Image from "../assets/Images/Home/marking-22.jpg";
+
+import dot2Image from "../assets/Images/Home/shawing51-.jpg";
+import saw11Image from "../assets/Images/Home/sawing10a.jpg";
+import saw12Image from "../assets/Images/Home/sawing10b.png";
+import saw13Image from "../assets/Images/Home/shawing55-.jpeg";
+
+import dot13Image from "../assets/Images/Home/polish271.jpg";
+import poli11Image from "../assets/Images/Home/polish-11.png.jpg";
+import poli12Image from "../assets/Images/Home/polisg27.jpg";
+import poli13Image from "../assets/Images/Home/polish25.jpg";
 
 
 
@@ -94,7 +121,7 @@ function Home() {
                                     <a href="#" className="ps-2 text-light"> <FaTelegram /></a>
                                     <a href="#" className="ps-2 text-light"> <BsWhatsapp /> </a>
                                 </li>
-                                <li className='  ps-4'>
+                                <li className='ps-4  '>
                                     <div className="button-grid text-center ">
                                         <button class="button button--animated bg-dark " onClick={(() => goToLogin())}>
                                             <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
@@ -108,8 +135,8 @@ function Home() {
             </div>
 
 
-         
-         <div className="container-fluid pt-5 " >      -- id='vanta1'--
+            {/* -- id='vanta1'-- */}
+         <div className="container-fluid pt-5 " >     
             <div className="container pt-5"  id='home'>
                  <div className="row pt-5">
                     <div className="col-lg-7"  data-aos="zoom-in" data-aos-duration="3000">
@@ -120,7 +147,7 @@ function Home() {
                         <img src={rufeImage} alt="rufe" className="img-fluid rounded-4  stak-img img-4"/>
                       </div>
                     </div>
-                    <div className="col-lg-5 pt-5" data-aos="zoom-in" data-aos-duration="3000">
+                    <div className="col-lg-4  pt-5" data-aos="zoom-in" data-aos-duration="3000">
                     <h1 className='head1 pt-5'>Maruti Export: A Legacy of Diamonds</h1>
                             <p className='discription pt-2'>
                                 Established in 2019,
@@ -134,13 +161,11 @@ function Home() {
          </div>
 
 
-
-
-            <div className="container-fluid fount "> 
+            <div className="container-fluid fount"> 
             <div className="container">
             <div className="row">
                 <div className="col-lg-5 pt-5"  data-aos="flip-left" data-aos-duration="3000">
-                <h1 className='secondhead pt-3'>Our Mission: Excellence in Diamonds</h1>
+                <h1 className='secondhead pt-3'>Our Foundation: Pillars of Trust</h1>
                     <p className='discription pt-2'>
                                 Maruti Export was built on the foundation of four key pillars -faith, trust, honesty & transparency.
                                 The 4 main pillars are on which the foundation of the Maruti Export was built and will sustain forever.
@@ -159,52 +184,68 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid pt-5 " >
-
-                <div className="container p-5 mt-5" id='about'>
-                    <div className="row py-5 my-5 ">
-                        <div className="col-md-6 mission" data-aos="fade-right" data-aos-duration="3000" >
-                            <img src={missionImage} alt="mission3" className="img-fluid w-100  rounded-4 " />
-                        </div>
-                        <div className="col-md-6 ps-4" data-aos="fade-left" data-aos-duration="3000" >
-                            <h1 className='secondhead pt-5'>Our Mission: Excellence in Diamonds</h1>
-                            <p className='discription pt-5'>
+            <div className="container-fluid   fount" >     
+            <div className="container pt-5">
+                 <div className="row pt-5">
+                    <div className="col-lg-7" >
+                        <div className='img-stak position-relative pt-5'data-aos="fade-right" data-aos-duration="3000">
+                        <img src={dote3Image} alt="" className="img-fluid rounded-4  stak-img iamg1" />
+                        <img src={missn32Image} alt="" className="img-fluid rounded-4  stak-img iamg2" />
+                        <img src={missn33Image} alt="" className="img-fluid stak-img rounded-4 iamg3" />
+                        <img src={missn31Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg4"/>
+                      </div>
+                    </div>
+                    <div className="col-lg-4  pt-5" data-aos="fade-left" data-aos-duration="3000">
+                    <h1 className='secondhead pt-5'>Our Mission: Excellence in Diamonds</h1>
+                            <p className='discription pt-2'>
                                 Our Mission is to be the leading diamond manufacturer in the industry while guaranteeing maximum
                                 satisfaction with the purchase of each stone and to provide fine quality diamond in terms of cut,
                                 color, carat, and clarity for its price.
                             </p>
-                        </div>
                     </div>
-                </div>
+                 </div>
+            </div>
+         </div>
 
 
-                <div className="container p-5 mt-5" id='Quality'>
-                    <div className="row py-5 my-5">
-                        <div className="col-md-6 pt-5 " data-aos="flip-up" data-aos-duration="3000" >
-                            <h1 className='secondhead pt-4'>Our Vision: Shaping the Future of Diamonds</h1>
-                            <p className='discription pt-5'>
-                                Maruti Export's vision is to adopt the latest manufacturing technology and innovative management concepts
-                                to become the world's leading diamond manufacturer, and become the world's most valued company by setting
-                                industry standards for the highest quality and most efficient diamonds.
+         <div className="container-fluid mt-5 fount"> 
+            <div className="container mt-5">
+            <div className="row mt-5">
+                <div className="col-lg-5 pt-5" data-aos="flip-up" data-aos-duration="3000">
+                <h1 className='secondhead pt-3'>Our Vision: Shaping the Future of Diamonds</h1>
+                    <p className='discription pt-2'>
+                    Maruti Export's vision is to adopt the latest manufacturing technology and innovative management concepts to become the world's leading diamond
+                     manufacturer, and become the world's most valued company by setting industry standards for the highest quality and most efficient diamonds.
                             </p>
-                        </div>
-                        <div className="col-md-6  vision " data-aos="flip-down" data-aos-duration="3000">
-                            <img src={visionImage} alt="vision4" className="img-fluid w-100 rounded-4" />
-                        </div>
-                    </div>
                 </div>
+                <div className="col-lg-7">
+                <div className='img-stak position-relative pt-5' data-aos="flip-down" data-aos-duration="3000">
+                        <img src={dote4Image} alt="" className="img-fluid rounded-4  stak-img imag4-1" />
+                        <img src={pilr42Image} alt="" className="img-fluid rounded-4  stak-img imag4-2" />
+                        <img src={pilr43Image} alt="" className="img-fluid rounded-4  stak-img  imag4-3" />
+                        <img src={pilr41Image} alt="rufe" className="img-fluid rounded-4  stak-img imag4-4"/>
+                      </div>
+                </div>
+            </div>
+            </div>
+            </div>
 
 
-
-                <div className="container p-4 mt-5">
-                    <div className="row my-5 ">
-                        <div className="col-md-6  culture" data-aos="flip-right" data-aos-duration="3000"  >
-                            <img src={cultureImage} alt="culture5" className="img-fluid w-100 rounded-4" />
-                        </div>
-                        <div className="col-md-6" data-aos="flip-left" data-aos-duration="3000" >
-                            <h1 className='secondhead '>A Culture of Performance</h1>
-                            <p className='discription'>
-                                A performance-oriented culture is rooted in our company's DNA, making us globally recognized as the preferred supplier
+            <div className="container-fluid   fount" >     
+            <div className="container pt-5">
+                 <div className="row pt-5">
+                    <div className="col-lg-7" >
+                        <div className='img-stak position-relative pt-5'  data-aos="flip-right" data-aos-duration="3000">
+                        <img src={dote5Image} alt="" className="img-fluid rounded-4  stak-img iamg11" />
+                        <img src={cult21Image} alt="" className="img-fluid rounded-4  stak-img iamg12" />
+                        <img src={cult22Image} alt="" className="img-fluid stak-img rounded-4 iamg13" />
+                        <img src={cult23Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg14"/>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 "  data-aos="flip-left" data-aos-duration="3000" >
+                    <h1 className='secondhead pt-5'>A Culture of Performance</h1>
+                            <p className='discription pt-2'>
+                            A performance-oriented culture is rooted in our company's DNA, making us globally recognized as the preferred supplier
                                 in the industry. We, at Maruti Export ensure that the world's most precious gift is received by our customers with care &
                                 elegance. We combine knowledge, experience, and innovations to transform a rough stone into a multifaceted diamond reflecting
                                 a scintillating sparkle. For the assurance in the authenticity and integrity of diamonds, we are associated with the largest
@@ -214,13 +255,14 @@ function Home() {
                                 our principal markets. In our journey towards success, willingness to evolve, & adapt has played a major role in
                                 creating value for our customers.
                             </p>
-                        </div>
                     </div>
-                </div>
+                 </div>
+            </div>
+         </div>
 
 
-
-                <div className="container p-5 " id='Process'>
+         <div className="container-fluid ">
+              <div className="container p-5 " id='Process'>
                     <div className="row py-5 my-5">
                         <div className="col-md-6" data-aos="zoom-in-right" data-aos-duration="3000" >
                             <h1 className='secondhead pt-5'>QUALITY AT EACH STEP</h1>
@@ -238,112 +280,131 @@ function Home() {
                         </div>
                     </div>
                 </div>
+         </div>
 
-
-
-
-                <div className="container pt-5 mt-4" id='craftmenship'>
-                    <div className="row py-5 my-5 ">
-                        <div className="col-md-6 process" data-aos="fade-right" data-aos-duration="3000"  >
-                            <img src={processImage} alt="process7" className="img-fluid w-100  rounded-4" />
-                        </div>
-                        <div className="col-md-6 ps-4 " data-aos="fade-right" data-aos-duration="3000" >
-                            <h1 className='secondhead'>Craftsmanship: The Heart of Our Process</h1>
-                            <p className='discription'>
-                                Our skilled artisans are driven by a desire to create the most exquisite diamond. The vast majority of our highly
+        
+         <div className="container-fluid  " id='craftmenship'>     
+            <div className="container pt-5">
+                 <div className="row pt-5">
+                    <div className="col-lg-7" >
+                        <div className='img-stak position-relative pt-5' data-aos="fade-right" data-aos-duration="3000">
+                        <img src={dote6Image} alt="" className="img-fluid rounded-4  stak-img iamg21" />
+                        <img src={craf11Image} alt="" className="img-fluid rounded-4  stak-img iamg22" />
+                        <img src={craf12Image} alt="" className="img-fluid stak-img rounded-4 iamg23" />
+                        <img src={craf13Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg24"/>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 " data-aos="fade-right" data-aos-duration="3000" >
+                    <h1 className='secondhead pt-5'>Craftsmanship: The Heart of Our Process</h1>
+                            <p className='discription pt-2'>
+                            Our skilled artisans are driven by a desire to create the most exquisite diamond. The vast majority of our highly
                                 experienced workforce has been with us for many years, ensuring continuity, competence, and quality across the board.
                                 Our craftsmen treat each piece of stone with the utmost care and attention. While each diamond in our production facility
                                 is allocated a definite amount of hours, from sorting to final polishing. Moreover, the degree of dedication that they have
                                 shown to the business is one of the reasons why we are renowned in more than 20 countries across the globe for our high -
                                 quality diamonds, as much as we are for our excellent value.
                             </p>
-                        </div>
                     </div>
-                </div>
+                 </div>
+            </div>
+         </div>
 
 
-
-                <div className="container p-5 mt-5" id='selecting'>
-                    <div className="row py-5 my-5">
-                        <div className="col-md-6 " data-aos="fade-left" data-aos-duration="3000">
-                            <h1 className='secondhead pt-5'>Selecting and Sorting: The First Step</h1>
-                            <p className='discription pt-5'>
+         <div className="container-fluid fount" id='selecting'> 
+            <div className="container">
+            <div className="row">
+                <div className="col-lg-5 "  data-aos="fade-left" data-aos-duration="3000">
+                <h1 className='secondhead pt-3'>Selecting and Sorting: The First Step</h1>
+                    <p className='discription pt-2'>
                                 The first and vital step in the diamond cutting and polishing process is the analysis of the rough diamond. This step requires
                                 all-consuming imagination, skill, and precision, by an experienced diamond cutter. The optimum cut for the diamond is chosen after assessing
                                 its size, shape, clarity, and crystal direction in order to maximize its final value and beauty. At Maruti Export, we ensure that each rough is
                                 evaluated by a trained eye capable of determining the finest potential cut for the stone.
                             </p>
-                        </div>
-                        <div className="col-md-6  sorting" data-aos="fade-left" data-aos-duration="3000">
-                            <img src={selectImage} alt="select8" className="img-fluid w-100 rounded-4" />
-                        </div>
-                    </div>
                 </div>
+                <div className="col-lg-7">
+                <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000">
+                        <img src={dote7Image} alt="" className="img-fluid rounded-4  stak-img imag41" />
+                        <img src={step12Image} alt="" className="img-fluid rounded-4  stak-img imag42" />
+                        <img src={step13Image} alt="" className="img-fluid rounded-4  stak-img  imag43" />
+                        <img src={step11Image} alt="rufe" className="img-fluid rounded-4  stak-img imag44"/>
+                      </div>
+                </div>
+            </div>
+            </div>
+            </div>
 
-
-
-                <div className="container pb-5 " id='marking'>
-                    <div className="row py-5 my-5 ">
-                        <div className="col-md-6 mark" data-aos="fade-right" data-aos-duration="3000" >
-                            <img src={markImage} alt="mark9" className="img-fluid w-100 rounded-4" />
-                        </div>
-                        <div className="col-md-6 ps-4 " data-aos="fade-right" data-aos-duration="3000">
-                            <h1 className='secondhead pt-5'>Marking: Precision for Perfection</h1>
-                            <p className='discription'>
+            <div className="container-fluid  fount" id='marking' >     
+            <div className="container pt-5">
+                 <div className="row pt-5">
+                    <div className="col-lg-7" >
+                        <div className='img-stak position-relative' data-aos="fade-right" data-aos-duration="3000">
+                        <img src={dot1Image} alt="" className="img-fluid rounded-4  stak-img iamg-21" />
+                        <img src={mark11Image} alt="" className="img-fluid rounded-4  stak-img iamg-22" />
+                        <img src={mark12Image} alt="" className="img-fluid stak-img rounded-4 iamg-23" />
+                        <img src={mark13Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg-24"/>
+                      </div>
+                    </div>
+                    <div className="col-lg-4"  data-aos="fade-right" data-aos-duration="3000">
+                    <h1 className='secondhead'>Marking: Precision for Perfection</h1>
+                            <p className='discription pt-2'>
                                 One of the most important phases in the production process is marking. It is accomplished by the use of 3D laser technology.
                                 Incorrect marking by a fraction of a millimeter can have a significant influence on the finished gem's quality. Every rough
                                 contains impurities that must be removed in order to optimize the rough gemstone's output and reduce waste.
                             </p>
-                        </div>
                     </div>
-                </div>
+                 </div>
+            </div>
+         </div>
 
 
-
-
-
-                <div className="container mt-5" id='sawing'>
-                    <div className="row py-5 my-5">
-                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="3000">
-                            <h1 className='secondhead pt-5'>Sawing: Shaping the Diamond</h1>
-                            <p className='discription pt-5'>
+         <div className="container-fluid fount" id='sawing'> 
+            <div className="container">
+            <div className="row">
+                <div className="col-lg-5 "  data-aos="fade-left" data-aos-duration="3000">
+                <h1 className='secondhead pt-3'>Sawing: Shaping the Diamond</h1>
+                    <p className='discription pt-2'>
                                 Sawing is the process of separating a diamond rough into separate pieces that will be polished as individual diamonds. During the design stage,
                                 our artisans identify the sawing planes. At Maruti Export, we utilize the most recent high-quality laser sawing machines to cut raw diamonds
                                 extremely precisely and accurately, in line with the appropriate cutting plans. This approach saves time and reduces human error to virtually
                                 nil, which would otherwise have resulted in a significant decrease in its worth.
                             </p>
-                        </div>
-                        <div className="col-md-6 position-relative p-5" data-aos="fade-left" data-aos-duration="3000">
-                            <div className="image-stack ">
-                                <img src={sowing1Image} alt="First" className="  w-50 rounded-4 stack-image image1" />
-                                <img src={sowingImage} alt="Second" className=" w-50  rounded-4 stack-image image2" />
-                                <img src={sowing2Image} alt="Third" className=" w-50  rounded-4 stack-image image3" />
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <div className="col-lg-7">
+                <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000">
+                        <img src={dot2Image} alt="" className="img-fluid rounded-4  stak-img imag41" />
+                        <img src={saw11Image} alt="" className="img-fluid rounded-4  stak-img imag42" />
+                        <img src={saw12Image} alt="" className="img-fluid rounded-4  stak-img  imag43" />
+                        <img src={saw13Image} alt="rufe" className="img-fluid rounded-4  stak-img imag44"/>
+                      </div>
+                </div>
+            </div>
+            </div>
+            </div>
 
-
-                <div className="container p-5 mt-5" id='polishing'>
-                    <div className="row py-5 my-5 p-5">
-                        <div className="col-md-6 polish  " data-aos="fade-right" data-aos-duration="3000">
-                            <img src={polishImage} alt="mark9" className="img-fluid w-100 rounded-4" />
-                        </div>
-                        <div className="col-md-6 ps-4" data-aos="fade-right" data-aos-duration="3000">
-                            <h1 className='secondhead pt-5'>Polishing: Bringing Out the Sparkle</h1>
-                            <p className='discription'>
-                                Also known as brillianteering, polishing is the final stage of the cutting process. The diamond's final facets are polished
+            <div className="container-fluid  fount" id='polishing' >     
+            <div className="container pt-5">
+                 <div className="row ">
+                    <div className="col-lg-7" >
+                        <div className='img-stak position-relative' data-aos="fade-right" data-aos-duration="3000">
+                        <img src={dot13Image} alt="" className="img-fluid rounded-4  stak-img iamg-25" />
+                        <img src={poli11Image} alt="" className="img-fluid rounded-4  stak-img iamg-26" />
+                        <img src={poli12Image} alt="" className="img-fluid stak-img rounded-4 iamg-27" />
+                        <img src={poli13Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg-28"/>
+                      </div>
+                    </div>
+                    <div className="col-lg-4"  data-aos="fade-right" data-aos-duration="3000">
+                    <h1 className='secondhead'>Polishing: Bringing Out the Sparkle</h1>
+                            <p className='discription pt-2'>
+                            Also known as brillianteering, polishing is the final stage of the cutting process. The diamond's final facets are polished
                                 and shaped to ideal proportions and perfect symmetry in order for the diamond to reflect the maximum light. The more sparkle
                                 and brilliance a diamond has, the more beautiful it is, and the higher its value will be. At Maruti Export, we work with
                                 highly specialized and talented craftsmen that determine the fire, brilliance and scintillation a diamond will have.
                             </p>
-                        </div>
                     </div>
-                </div>
-
+                 </div>
             </div>
-
-
+         </div>
 
 
             <div className="container-fluid infox" id='Contect'>
@@ -352,7 +413,7 @@ function Home() {
                         <div className="row text-light">
 
                             <div className="col-lg-3">
-                                <img src={logoImage} alt="logo2" className="w-75 py-5 text-center" />
+                                <img src={logoImage} alt="logo2" className="w-75 p-5 text-center" />
                             </div>
 
                             <div className="col-lg-3 text-start ">
@@ -393,7 +454,8 @@ function Home() {
                                     </div>
                                     <div className="button-grid text-center ">
                                         <button type='submit' class="button button--animated bg-dark"  onClick={((e) => { e.preventDefault(); goToLogin()})}>
-                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
+                                            <span class="button__text">Login </span>
+                                             <FaArrowRightLong className='button__icon m-1 ' />
                                         </button>
                                         
                                     </div>
@@ -405,8 +467,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
-
 
         </>
     )

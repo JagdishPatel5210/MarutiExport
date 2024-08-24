@@ -21,20 +21,6 @@
   color: black;
 }
 
-/* .nav-link:before{
-    position: absolute;
-    top: 100%;
-    width: 0;
-    height: 2px;
-    background:black;
-    content: "";
-    opacity: 0;
-    transition: opacity 0.3s, width 0.4s;
-    float: left;
-} */
-
-
-
 
 .menu ul{
   list-style: none;
@@ -56,7 +42,7 @@
 .menu a::before{
   content: "";
   width: 100%;
-  height: 4px;
+  height: 2px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -94,7 +80,36 @@
   width: 100%;
 }
 
+ /* .letest {
+  position: relative;
+  width: 100%;
+  height: 950px;
+}
 
+.letest::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/Images/Home/back-888.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5; /* 50% opacity */
+  /* z-index: -1; Place the background behind the content */
+/* } */
+/* .container-fluid { */
+  /* position: relative; */
+  /* z-index: 1; */
+/* }  */
+.letest{
+  background-image: url(./assets/Images/Home/back-888.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+}
 
 .head1 {
   margin: 30px;
@@ -104,14 +119,14 @@
 }
 
 .discription {
-  margin: 30px;
+  margin: 25px;
   color: var(--grey);
   font-size: 19px;
   text-align: justify;
 }
 
 .secondhead {
-  margin: 30px;
+  margin: 25px;
   font-size: 30px;
   color: rgb(70, 62, 62);
 }
@@ -129,13 +144,6 @@
   height: auto;
 }
 
-.img-3 {
-  z-index: 1;
-  width: 35%;
-  top: 120px;
-  left: 475px;
-
-}
 
 .img-1 {
   z-index: 2;
@@ -148,7 +156,14 @@
   z-index: 3;
   width: 60%;
   top: 150px;
-  left: -20px;
+  left: -15px;
+}
+.img-3 {
+  z-index: 1;
+  width: 35%;
+  top: 120px;
+  left: 475px;
+
 }
 
 .img-4 {
@@ -158,8 +173,9 @@
   left: 330px;
 }
 
-.fount {
-  padding-top: 20%;
+.fountion{
+  padding-top:10%;
+   padding-bottom: 25%;
 }
 
 .imag-1 {
@@ -187,9 +203,16 @@
   z-index: 3;
   width: 55%;
   top: 45px;
-  left: 230px;
+  left: 220px;
 }
 
+.misson{
+   background-image: url(./assets/Images/Home/back-img111.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 870px;
+}
 
 .iamg1 {
   z-index: 2;
@@ -222,6 +245,10 @@
 }
 
 
+.vision{
+  padding-top:10%;
+   padding-bottom: 30%;
+}
 
 
 .imag4-1 {
@@ -253,6 +280,14 @@
   left: 220px;
 }
 
+
+.Culture{
+  background-image: url(./assets/Images/Home/back-img8881.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+}
 
 .iamg11 {
   z-index: 2;
@@ -341,7 +376,6 @@
 
 .container1 .card .face.face2 .content a{
    margin: 15px 0 0;
-
   display:  inline-block;
   text-decoration: none;
   font-weight: 900;
@@ -390,9 +424,13 @@
 
 
 
-
-
-
+.Craft{
+  background-image: url(./assets/Images/Home/bac-image444.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+}
 
 
 .iamg21 {
@@ -423,7 +461,10 @@
   left: 345px
 }
 
-
+.select{
+  padding-top:15%;
+   padding-bottom: 15%; 
+}
 
 .imag41 {
   z-index: 2;
@@ -450,11 +491,33 @@
 
 .imag44 {
   z-index: 3;
-  width: 55%;
+  width: 52%;
   top: -30px;
   left: 230px;
 }
 
+.marking{
+  background-image: url(./assets/Images/Home/background-image-22.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:900px; 
+  padding-top: 12%;
+}
+
+.sawing{
+  padding-top:15%;
+  padding-bottom: 15%; 
+}
+
+.polish{
+  background-image: url(./assets/Images/Home/bac-image336.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 870px; 
+  padding-top: 5%; 
+}
 
 .iamg-21 {
   z-index: 2;
@@ -465,16 +528,16 @@
 
 .iamg-22 {
   z-index: 3;
-  width: 60%;
-  top: -20px;
-  left: -10px;
+  width: 55%;
+  top: 20px;
+  left: 10px;
 }
 
 .iamg-23 {
   z-index: 1;
   width: 35%;
   height: 70%;
-  top: -70px;
+  top: -40px;
   left: 490px;
 }
 
@@ -517,25 +580,16 @@
 }
 
 
-.step {
-  padding: 15% 5% 5% 5%;
-  height: 500px;
-  border-radius: 3%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(./assets/Images/Home/back-5.png);
+
+.infox {
+  padding: 50px;
+  margin-top: 5%;
+  background-color: var(--grey);
 }
 
 ul li a {
   text-decoration: none;
   color: rgb(68, 68, 68);
-}
-
-
-.infox {
-  padding: 50px;
-  margin-top: 15%;
-  background-color: var(--grey);
 }
 
 .cont {

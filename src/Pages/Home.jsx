@@ -3,13 +3,20 @@ import logoImage from '../assets/Images/Home/LogoWhite.png';
 import { FaFacebookF } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { BsWhatsapp } from "react-icons/bs";
-import { MdArrowForwardIos } from "react-icons/md";
+import { RiArrowRightDoubleLine } from "react-icons/ri";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoEarthSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import WAVES from 'vanta/dist/vanta.waves.min.js';
+
+
+import carouselImg1 from "../assets/Images/Home/dimondcaresol-133.jpg";
+import carouselImg2 from "../assets/Images/Home/dimondcarosal-155.jpg";
+import carouselImg3 from "../assets/Images/Home/dimonds-144.jpg";
+import carouselImg4 from "../assets/Images/Home/dimondcarsol-66.jpg";
+
 
 import card11Image from '../assets/Images/Home/card111.jpg';
 import card12Image from '../assets/Images/Home/cardimg12a.jpg';
@@ -31,7 +38,7 @@ import well2Image from "../assets/Images/Home/download-212.jpeg";
 import dote3Image from "../assets/Images/Home/background-3.jpg";
 import missn31Image from "../assets/Images/Home/mission3.jpg";
 import missn32Image from "../assets/Images/Home/How Diamonds-213.jpg";
-import missn33Image from "../assets/Images/Home/14075061692_9ed7ee1cac_o.jpg";
+import missn33Image from "../assets/Images/Home/1.jpg";
 
 import dote4Image from "../assets/Images/Home/background-6.jpg";
 import pilr41Image from "../assets/Images/Home/pillars2.png";
@@ -93,28 +100,27 @@ function Home() {
             <div className="container-fluid  nav1" >
                 <div className='container'>
                     <div className="row d-flex py-2">
-                        <div className="col-lg-3 ">
+                        <div className="col-lg-4 ">
                             <a className="navbar-brand " href="#" id='home'><img src={logoImage} alt="logo" className="w-25 " /></a>
                         </div>
-                        <div className="col-lg-3"></div>
-                        <div className="col-lg-6 menu menu-2">
-                            <ul className="nav pt-3 d-flex fw-bold">
-                                <li className="nav-item ">
+                        <div className="col-lg-7 menu menu-2 ">
+                            <ul className="nav pt-3 d-flex fw-bold justify-content-end ">
+                                <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#home">Home</a>
                                 </li>
-                                <li className="nav-item ">
+                                <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#about">About</a>
                                 </li>
-                                <li className="nav-item ">
+                                <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#Quality">Quality</a>
                                 </li>
-                                <li className="nav-item ">
+                                <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#Process">Process</a>
                                 </li>
-                                <li className="nav-item ">
+                                <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#Contect">Contact Us</a>
                                 </li>
-                                <li className='ps-2'>
+                                <li className='pe-3'>
                                     <div className="button-grid text-center ">
                                         <button class="button button--animated bg-dark " onClick={(() => goToLogin())}>
                                             <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
@@ -129,7 +135,7 @@ function Home() {
 
 
             {/* -- id='vanta1'-- */}
-            <div className="container-fluid pt-5"id='home' >
+            <div className="container-fluid letest pt-5" id='home' >
                 <div className="container pt-5" >
                     <div className="row pt-5">
                         <div className="col-lg-7" data-aos="zoom-in" data-aos-duration="3000">
@@ -152,14 +158,18 @@ function Home() {
                     </div>
                 </div>
             </div>
+  
+
+           
 
 
-            <div className="container-fluid fount" id='about'>
+
+            <div className="container-fluid fountion" id='about'>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 pt-5" data-aos="flip-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Foundation: Pillars of Trust</h1>
-                            <p className='discription pt-2'>
+                            <p className='discription pe-5'>
                                 Maruti Export was built on the foundation of four key pillars -faith, trust, honesty & transparency.
                                 The 4 main pillars are on which the foundation of the Maruti Export was built and will sustain forever.
                             </p>
@@ -177,7 +187,7 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid   fount" >
+            <div className="container-fluid misson" >
                 <div className="container pt-5">
                     <div className="row pt-5">
                         <div className="col-lg-7" >
@@ -201,12 +211,12 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid mt-5 fount"id='Quality'>
+            <div className="container-fluid vision" id='Quality'>
                 <div className="container mt-5">
                     <div className="row mt-5">
                         <div className="col-lg-5 pt-5" data-aos="flip-up" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Vision: Shaping the Future of Diamonds</h1>
-                            <p className='discription pt-2'>
+                            <p className='discription pe-5'>
                                 Maruti Export's vision is to adopt the latest manufacturing technology and innovative management concepts to become the world's leading diamond
                                 manufacturer, and become the world's most valued company by setting industry standards for the highest quality and most efficient diamonds.
                             </p>
@@ -224,7 +234,7 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid   fount" >
+            <div className="container-fluid Culture" >
                 <div className="container ">
                     <div className="row">
                         <div className="col-lg-7" >
@@ -339,7 +349,7 @@ function Home() {
                                     <div class="content">
                                         <a href="#polishing" class="card-link fw-bold">POLISHING</a>
                                         <p className=" pt-2">  The diamond's final facets are polished and shaped to ideal proportions and
-                                         perfect symmetry in order for the diamond to reflect the maximum amount of white light. </p>
+                                            perfect symmetry in order for the diamond to reflect the maximum amount of white light. </p>
                                     </div>
                                 </div>
                             </div>
@@ -356,7 +366,7 @@ function Home() {
                                     <div class="content">
                                         <a href="#monitoring" class="card-link fw-bold">MONITORING</a>
                                         <p className=" pt-2"> The Monitoring Association (TMA) grants Five Diamond status to companies that made it their
-                                         practice to meet the highestlevels of professionalism, training, and expertise in the industry.</p>
+                                            practice to meet the highestlevels of professionalism, training, and expertise in the industry.</p>
                                     </div>
                                 </div>
                             </div>
@@ -366,7 +376,7 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid " id='craftmanship'>
+            <div className="container-fluid  Craft" id='craftmanship'>
                 <div className="container pt-5">
                     <div className="row pt-5">
                         <div className="col-lg-7" >
@@ -393,12 +403,12 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid fount" id='selecting'>
+            <div className="container-fluid select" id='selecting'>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 " data-aos="fade-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Selecting and Sorting: The First Step</h1>
-                            <p className='discription pt-2'>
+                            <p className='discription pe-5'>
                                 The first and vital step in the diamond cutting and polishing process is the analysis of the rough diamond. This step requires
                                 all-consuming imagination, skill, and precision, by an experienced diamond cutter. The optimum cut for the diamond is chosen after assessing
                                 its size, shape, clarity, and crystal direction in order to maximize its final value and beauty. At Maruti Export, we ensure that each rough is
@@ -417,9 +427,9 @@ function Home() {
                 </div>
             </div>
 
-            <div className="container-fluid  fount" id='marking' >
-                <div className="container pt-5">
-                    <div className="row pt-5">
+            <div className="container-fluid  marking" id='marking' >
+                <div className="container ">
+                    <div className="row ">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative' data-aos="fade-right" data-aos-duration="3000">
                                 <img src={dot1Image} alt="" className="img-fluid rounded-4  stak-img iamg-21" />
@@ -441,12 +451,12 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid fount" id='sawing'>
+            <div className="container-fluid sawing" id='sawing'>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 " data-aos="fade-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Sawing: Shaping the Diamond</h1>
-                            <p className='discription pt-2'>
+                            <p className='discription pe-5'>
                                 Sawing is the process of separating a diamond rough into separate pieces that will be polished as individual diamonds. During the design stage,
                                 our artisans identify the sawing planes. At Maruti Export, we utilize the most recent high-quality laser sawing machines to cut raw diamonds
                                 extremely precisely and accurately, in line with the appropriate cutting plans. This approach saves time and reduces human error to virtually
@@ -465,9 +475,9 @@ function Home() {
                 </div>
             </div>
 
-            <div className="container-fluid  fount" id='polishing' >
+            <div className="container-fluid  polish" id='polishing' >
                 <div className="container pt-5">
-                    <div className="row ">
+                    <div className="row pt-5 ">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative' data-aos="fade-right" data-aos-duration="3000">
                                 <img src={dot13Image} alt="" className="img-fluid rounded-4  stak-img iamg-25" />
@@ -488,6 +498,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+
 
 
             <div className="container-fluid infox" id='Contect'>
@@ -515,11 +526,11 @@ function Home() {
                             <div className="col-lg-3 text-start">
                                 <h4 className='pt-3'>Information</h4>
                                 <ul className=" list-unstyled pt-2 ">
-                                    <li className="mt-2 "> <a href="#" className="cont"> <MdArrowForwardIos /> FAQ</a></li>
-                                    <li className="mt-2"><a href="#" className="cont"> <MdArrowForwardIos /> About Us</a></li>
-                                    <li className="mt-2"><a href="#" className="cont"> <MdArrowForwardIos /> Our collection</a></li>
-                                    <li className="mt-2"> <a href="#" className="cont"> <MdArrowForwardIos /> Contect Us</a></li>
-                                    <li className="mt-2"> <a href="#" className="cont"> <MdArrowForwardIos /> Login</a></li>
+                                    <li className="mt-2 "><RiArrowRightDoubleLine /> <a href="#" className="cont"> FAQ</a></li>
+                                    <li className="mt-2"><RiArrowRightDoubleLine />  <a href="#" className="cont">  About Us</a></li>
+                                    <li className="mt-2"><RiArrowRightDoubleLine />  <a href="#" className="cont">  Our collection</a></li>
+                                    <li className="mt-2"> <RiArrowRightDoubleLine />  <a href="#" className="cont">Contect Us</a></li>
+                                    <li className="mt-2"> <RiArrowRightDoubleLine />  <a href="#" className="cont">Login</a></li>
                                 </ul>
                             </div>
 

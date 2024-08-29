@@ -86,7 +86,7 @@ function Home() {
             zoom: 0.75
         })
     }, [])
-
+    
 
     const goToLogin = () => {
         debugger
@@ -101,12 +101,12 @@ function Home() {
                 <div className='container'>
                     <div className="row d-flex py-2">
                         <div className="col-lg-4 ">
-                            <a className="navbar-brand " href="#" id='home'><img src={logoImage} alt="logo" className="w-25 " /></a>
+                            <a className="navbar-brand " href="#" id='#'><img src={logoImage} alt="logo" className="w-25" /></a>
                         </div>
                         <div className="col-lg-7 menu menu-2 ">
                             <ul className="nav pt-3 d-flex fw-bold justify-content-end ">
                                 <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#home">Home</a>
+                                    <a className="nav-link" href="#">Home</a>
                                 </li>
                                 <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#about">About</a>
@@ -133,8 +133,13 @@ function Home() {
                 </div>
             </div>
 
+              
 
-            {/* -- id='vanta1'-- */}
+            
+
+
+
+          
             <div className="container-fluid letest pt-5" id='home' >
                 <div className="container pt-5" >
                     <div className="row pt-5">
@@ -159,8 +164,6 @@ function Home() {
                 </div>
             </div>
   
-
-           
 
 
 
@@ -265,9 +268,10 @@ function Home() {
 
 
 
-            <div className="container-fluid  conte" id='Process'>
+            <div className="container-fluid pt-5 pb-5 conte" id='Process'>
                 <a href="#poss" className=" fs-2 text-decoration-none
-                 text-center p-5 das-1 "><h1 className='menu-bottom-line '>Process</h1> </a>
+                 text-center p-5 das-1 ">
+                    <h1 className='menu-bottom-line '>Process</h1> </a>
                 <div className="row">
 
 
@@ -275,7 +279,7 @@ function Home() {
                         <div class="container1">
                             <div class="card border-0">
                                 <div class="face face1">
-                                    <div class="content"> <img src={card11Image} alt="" className="img-fluid w-100 h-100" /> </div>
+                                    <div class="content"> <img src={card11Image} alt="" className="img-fluid w-100 h-100"/> </div>
                                 </div>
                                 <div class="face face2">
                                     <div class="content">
@@ -376,7 +380,7 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid  Craft" id='craftmanship'>
+            <div className="container-fluid pt-5 Craft" id='craftmanship'>
                 <div className="container pt-5">
                     <div className="row pt-5">
                         <div className="col-lg-7" >

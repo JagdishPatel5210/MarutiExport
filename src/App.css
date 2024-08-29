@@ -389,6 +389,7 @@
 	width:100%;
 	margin: 50px 0 50px 0;
 	text-align:center;
+  padding-bottom: 50%;
 	
 	a{
 		font-size:24px;
@@ -430,7 +431,28 @@
   background-size: cover;
   width: 100%;
   height: 950px;
+  margin-top: 15%;
 }
+
+ /* .Craft {
+  position: relative;
+  width: 100%;
+  height: 950px;
+}
+.Craft::before {
+  content: '';
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/Images/Home/back-888.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;       
+  z-index: -1; 
+}
+  */
 
 
 .iamg21 {
@@ -501,8 +523,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height:900px; 
-  padding-top: 12%;
+  height:950px; 
+  padding-top: 14%;
 }
 
 .sawing{
@@ -515,8 +537,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 870px; 
-  padding-top: 5%; 
+  height: 950px; 
+  padding-top: 10%; 
 }
 
 .iamg-21 {

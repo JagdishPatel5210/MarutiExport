@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import logoImage from '../assets/Images/Home/LogoWhite.png';
+import logoImage from '../assets/Images/Home/Maruti Export Final 01.png';
 import { FaFacebookF } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { BsWhatsapp } from "react-icons/bs";
@@ -10,12 +10,7 @@ import { IoCall } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import WAVES from 'vanta/dist/vanta.waves.min.js';
-
-
-import carouselImg1 from "../assets/Images/Home/dimondcaresol-133.jpg";
-import carouselImg2 from "../assets/Images/Home/dimondcarosal-155.jpg";
-import carouselImg3 from "../assets/Images/Home/dimonds-144.jpg";
-import carouselImg4 from "../assets/Images/Home/dimondcarsol-66.jpg";
+import contectlogoImg from '../assets/Images/Home/LogoWhite.png'
 
 
 import card11Image from '../assets/Images/Home/card111.jpg';
@@ -25,52 +20,52 @@ import card14Image from '../assets/Images/Home/cardimg.webp';
 import card15Image from '../assets/Images/Home/diamond-polishing.jpg';
 import card16Image from '../assets/Images/Home/cardimg-222.jpg';
 
-import doteImage from "../assets/Images/Home/back12.jpg";
+// import doteImage from "../assets/Images/Home/back12.jpg";
 import rufeImage from "../assets/Images/Home/diomand-56.jpg";
 import rufe1Image from "../assets/Images/Home/Victor_Rough.png";
 import rufe2Image from "../assets/Images/Home/diamond-131.jpg";
 
-import dote2Image from "../assets/Images/Home/diomand-222.jpg";
+// import dote2Image from "../assets/Images/Home/diomand-222.jpg";
 import our2Image from "../assets/Images/Home/culture5.png";
 import pill2Image from "../assets/Images/Home/diamond-225.jpg";
 import well2Image from "../assets/Images/Home/download-212.jpeg";
 
-import dote3Image from "../assets/Images/Home/background-3.jpg";
+// import dote3Image from "../assets/Images/Home/background-3.jpg";
 import missn31Image from "../assets/Images/Home/mission3.jpg";
 import missn32Image from "../assets/Images/Home/How Diamonds-213.jpg";
 import missn33Image from "../assets/Images/Home/1.jpg";
 
-import dote4Image from "../assets/Images/Home/background-6.jpg";
+// import dote4Image from "../assets/Images/Home/background-6.jpg";
 import pilr41Image from "../assets/Images/Home/pillars2.png";
 import pilr42Image from "../assets/Images/Home/StockCake-Lustrous Diamond Brilliance_1724156918.jpg";
 import pilr43Image from "../assets/Images/Home/StockCake-Cradling Precious Gem_1724156976.jpg";
 
-import dote5Image from "../assets/Images/Home/background-52.jpg";
+// import dote5Image from "../assets/Images/Home/background-52.jpg";
 import cult21Image from "../assets/Images/Home/diamonds-4040800_1920.jpg";
 import cult22Image from "../assets/Images/Home/StockCake-Sparkling Diamond Brilliance_1724156554.jpg";
 import cult23Image from "../assets/Images/Home/StockCake-Sparkling Solitaire Diamond_1724156478.jpg";
 
-import dote6Image from "../assets/Images/Home/172072.jpg";
+// import dote6Image from "../assets/Images/Home/172072.jpg";
 import craf11Image from "../assets/Images/Home/process-7.jpg";
 import craf12Image from "../assets/Images/Home/diomand-54.jpg";
 import craf13Image from "../assets/Images/Home/diomand-53.jpg";
 
-import dote7Image from "../assets/Images/Home/backgrund-32.jpg";
+// import dote7Image from "../assets/Images/Home/backgrund-32.jpg";
 import step11Image from "../assets/Images/Home/diamond61.jpeg";
 import step12Image from "../assets/Images/Home/step-66.jpg";
 import step13Image from "../assets/Images/Home/shorting8.png";
 
-import dot1Image from "../assets/Images/Home/marking33.jpg";
+// import dot1Image from "../assets/Images/Home/marking33.jpg";
 import mark11Image from "../assets/Images/Home/marking9.png";
 import mark12Image from "../assets/Images/Home/marking44.jpg";
 import mark13Image from "../assets/Images/Home/marking-22.jpg";
 
-import dot2Image from "../assets/Images/Home/shawing51-.jpg";
+// import dot2Image from "../assets/Images/Home/shawing51-.jpg";
 import saw11Image from "../assets/Images/Home/sawing10a.jpg";
 import saw12Image from "../assets/Images/Home/sawing10b.png";
 import saw13Image from "../assets/Images/Home/shawing55-.jpeg";
 
-import dot13Image from "../assets/Images/Home/polish271.jpg";
+// import dot13Image from "../assets/Images/Home/polish271.jpg";
 import poli11Image from "../assets/Images/Home/polish-11.png.jpg";
 import poli12Image from "../assets/Images/Home/polisg27.jpg";
 import poli13Image from "../assets/Images/Home/polish25.jpg";
@@ -100,11 +95,11 @@ function Home() {
             <div className="container-fluid  nav1" >
                 <div className='container'>
                     <div className="row d-flex py-2">
-                        <div className="col-lg-4 ">
+                        {/* <div className="col-lg-4 ">
                             <a className="navbar-brand " href="#" id='#'><img src={logoImage} alt="logo" className="w-25" /></a>
-                        </div>
-                        <div className="col-lg-7 menu menu-2 ">
-                            <ul className="nav pt-3 d-flex fw-bold justify-content-end ">
+                        </div> */}
+                        <div className=" menu menu-2 ">
+                            <ul className="nav d-flex fw-bold justify-content-end ">
                                 <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#">Home</a>
                                 </li>
@@ -120,20 +115,23 @@ function Home() {
                                 <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#Contect">Contact Us</a>
                                 </li>
-                                <li className='pe-3'>
-                                    <div className="button-grid text-center ">
-                                        <button class="button button--animated bg-dark " onClick={(() => goToLogin())}>
+                                <li>
+                                    <div className="button-grid text-center">
+                                        <button class="button button--animated bg-light" onClick={(() => goToLogin())}>
                                             <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
                                         </button>
                                     </div>
                                 </li>
                             </ul>
                         </div>
+                       
                     </div>
                 </div>
             </div>
 
-              
+            <div className="container-fluid  text-center pt-5 ">
+            <a className="" href="#" id='#'><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
+            </div>
 
             
 
@@ -141,11 +139,11 @@ function Home() {
 
           
             <div className="container-fluid letest pt-5" id='home' >
-                <div className="container pt-5" >
+                <div className="container " >
                     <div className="row pt-5">
                         <div className="col-lg-7" data-aos="zoom-in" data-aos-duration="3000">
                             <div className='img-stak position-relative pt-5'>
-                                <img src={doteImage} alt="" className="img-fluid rounded-4  stak-img img-1" />
+                                {/* <img src={doteImage} alt="" className="img-fluid rounded-4  stak-img img-1" /> */}
                                 <img src={rufe1Image} alt="" className="img-fluid rounded-4  stak-img img-2" />
                                 <img src={rufe2Image} alt="" className="img-fluid stak-img  rounded-4 img-3" />
                                 <img src={rufeImage} alt="rufe" className="img-fluid rounded-4  stak-img img-4" />
@@ -179,7 +177,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7">
                             <div className='img-stak position-relative pt-5' data-aos="flip-right" data-aos-duration="3000" >
-                                <img src={dote2Image} alt="" className="img-fluid rounded-4  stak-img imag-1" />
+                                {/* <img src={dote2Image} alt="" className="img-fluid rounded-4  stak-img imag-1" /> */}
                                 <img src={pill2Image} alt="" className="img-fluid rounded-4  stak-img imag-2" />
                                 <img src={well2Image} alt="" className="img-fluid rounded-4  stak-img  imag-3" />
                                 <img src={our2Image} alt="rufe" className="img-fluid rounded-4  stak-img imag-4" />
@@ -195,7 +193,7 @@ function Home() {
                     <div className="row pt-5">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative pt-5' data-aos="fade-right" data-aos-duration="3000">
-                                <img src={dote3Image} alt="" className="img-fluid rounded-4  stak-img iamg1" />
+                                {/* <img src={dote3Image} alt="" className="img-fluid rounded-4  stak-img iamg1" /> */}
                                 <img src={missn32Image} alt="" className="img-fluid rounded-4  stak-img iamg2" />
                                 <img src={missn33Image} alt="" className="img-fluid stak-img rounded-4 iamg3" />
                                 <img src={missn31Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg4" />
@@ -226,7 +224,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7">
                             <div className='img-stak position-relative pt-5' data-aos="flip-down" data-aos-duration="3000">
-                                <img src={dote4Image} alt="" className="img-fluid rounded-4  stak-img imag4-1" />
+                                {/* <img src={dote4Image} alt="" className="img-fluid rounded-4  stak-img imag4-1" /> */}
                                 <img src={pilr42Image} alt="" className="img-fluid rounded-4  stak-img imag4-2" />
                                 <img src={pilr43Image} alt="" className="img-fluid rounded-4  stak-img  imag4-3" />
                                 <img src={pilr41Image} alt="rufe" className="img-fluid rounded-4  stak-img imag4-4" />
@@ -242,7 +240,7 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative pt-5' data-aos="flip-right" data-aos-duration="3000">
-                                <img src={dote5Image} alt="" className="img-fluid rounded-4  stak-img iamg11" />
+                                {/* <img src={dote5Image} alt="" className="img-fluid rounded-4  stak-img iamg11" /> */}
                                 <img src={cult21Image} alt="" className="img-fluid rounded-4  stak-img iamg12" />
                                 <img src={cult22Image} alt="" className="img-fluid stak-img rounded-4 iamg13" />
                                 <img src={cult23Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg14" />
@@ -269,9 +267,8 @@ function Home() {
 
 
             <div className="container-fluid pt-5 pb-5 conte" id='Process'>
-                <a href="#poss" className=" fs-2 text-decoration-none
-                 text-center p-5 das-1 ">
-                    <h1 className='menu-bottom-line '>Process</h1> </a>
+                <a href="#poss" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
+                    <h1 className='menu-bottom-line'>Process</h1> </a>
                 <div className="row">
 
 
@@ -385,7 +382,7 @@ function Home() {
                     <div className="row pt-5">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative pt-5' data-aos="fade-right" data-aos-duration="3000">
-                                <img src={dote6Image} alt="" className="img-fluid rounded-4  stak-img iamg21" />
+                                {/* <img src={dote6Image} alt="" className="img-fluid rounded-4  stak-img iamg21" /> */}
                                 <img src={craf11Image} alt="" className="img-fluid rounded-4  stak-img iamg22" />
                                 <img src={craf12Image} alt="" className="img-fluid stak-img rounded-4 iamg23" />
                                 <img src={craf13Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg24" />
@@ -421,7 +418,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7">
                             <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000">
-                                <img src={dote7Image} alt="" className="img-fluid rounded-4  stak-img imag41" />
+                                {/* <img src={dote7Image} alt="" className="img-fluid rounded-4  stak-img imag41" /> */}
                                 <img src={step12Image} alt="" className="img-fluid rounded-4  stak-img imag42" />
                                 <img src={step13Image} alt="" className="img-fluid rounded-4  stak-img  imag43" />
                                 <img src={step11Image} alt="rufe" className="img-fluid rounded-4  stak-img imag44" />
@@ -436,7 +433,7 @@ function Home() {
                     <div className="row ">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative' data-aos="fade-right" data-aos-duration="3000">
-                                <img src={dot1Image} alt="" className="img-fluid rounded-4  stak-img iamg-21" />
+                                {/* <img src={dot1Image} alt="" className="img-fluid rounded-4  stak-img iamg-21" /> */}
                                 <img src={mark11Image} alt="" className="img-fluid rounded-4  stak-img iamg-22" />
                                 <img src={mark12Image} alt="" className="img-fluid stak-img rounded-4 iamg-23" />
                                 <img src={mark13Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg-24" />
@@ -469,7 +466,7 @@ function Home() {
                         </div>
                         <div className="col-lg-7">
                             <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000">
-                                <img src={dot2Image} alt="" className="img-fluid rounded-4  stak-img imag41" />
+                                {/* <img src={dot2Image} alt="" className="img-fluid rounded-4  stak-img imag41" /> */}
                                 <img src={saw11Image} alt="" className="img-fluid rounded-4  stak-img imag42" />
                                 <img src={saw12Image} alt="" className="img-fluid rounded-4  stak-img  imag43" />
                                 <img src={saw13Image} alt="rufe" className="img-fluid rounded-4  stak-img imag44" />
@@ -484,7 +481,7 @@ function Home() {
                     <div className="row pt-5 ">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative' data-aos="fade-right" data-aos-duration="3000">
-                                <img src={dot13Image} alt="" className="img-fluid rounded-4  stak-img iamg-25" />
+                                {/* <img src={dot13Image} alt="" className="img-fluid rounded-4  stak-img iamg-25" /> */}
                                 <img src={poli11Image} alt="" className="img-fluid rounded-4  stak-img iamg-26" />
                                 <img src={poli12Image} alt="" className="img-fluid stak-img rounded-4 iamg-27" />
                                 <img src={poli13Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg-28" />
@@ -511,13 +508,13 @@ function Home() {
                         <div className="row text-light">
 
                             <div className="col-lg-3">
-                                <img src={logoImage} alt="logo2" className="w-100 p-5" />
+                                <img src={contectlogoImg} alt="logo2" className="w-100 p-5" />
                             </div>
 
                             <div className="col-lg-3 text-start ">
                                 <h4 className='pt-3 '>Contact Us :-</h4>
-                                <div className=' pt-3 cont'> <IoEarthSharp /> marutiexport.com</div>
-                                <div className='pt-3 cont'><IoCall />  +91 73861 58615</div>
+                                <div className=' pt-3'> <IoEarthSharp /> <a href="#" className="cont "> marutiexport.com </a></div>
+                                <div className='pt-3'><IoCall /> <a href="#" className="cont"> +91 73861 58615</a></div>
 
                                 <div className="d-flex fs-5 m-2">
                                     <a href="#" className="pe-3 text-light"> <FaFacebookF className='cont' /></a>
@@ -544,16 +541,16 @@ function Home() {
                                 <form>
                                     <div className=" pt-3 d-flex">
                                         <FaUserAlt className='fs-5 m-2 cont' />
-                                        <input type="text" className="form-control" id="name" placeholder="Enter Name" name="name" />
+                                        <input type="text" className="form-control p-0" id="name" placeholder="Enter Name" name="name" />
                                     </div>
                                     <div className="my-4 d-flex">
                                         <IoMdMail className='fs-5 m-2 cont' />
-                                        <input type="email" className="form-control" id="email" placeholder="Enter email" name="email" />
+                                        <input type="email" className="form-control p-0" id="email" placeholder="Enter email" name="email" />
                                     </div>
                                     <div className="button-grid text-center ">
-                                        <button type='submit' class="button button--animated bg-dark" onClick={((e) => { e.preventDefault(); goToLogin() })}>
+                                        <button type='submit' class="button button--animated bg-light" onClick={((e) => { e.preventDefault(); goToLogin() })}>
                                             <span class="button__text">Login </span>
-                                            <FaArrowRightLong className='button__icon m-1 ' />
+                                            <FaArrowRightLong className='button__icon m-1' />
                                         </button>
 
                                     </div>

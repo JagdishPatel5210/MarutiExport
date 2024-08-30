@@ -9,7 +9,7 @@
 
 .nav1 {
   position: fixed;
-  background-color: rgb(95, 95, 95);
+  background-color:rgb(28 23 69);
   z-index: 1000;
 }
 
@@ -17,10 +17,9 @@
   color: aliceblue;
 }
 
-.nav-item .nav-link:hover {
-  color: black;
+.logo{
+  height: 120px;
 }
-
 
 .menu ul{
   list-style: none;
@@ -56,7 +55,7 @@
 }
  
 .menu-2 a::before{
-  background:black;
+  background: white;
 }
 
 
@@ -80,35 +79,13 @@
   width: 100%;
 }
 
- /* .letest {
-  position: relative;
-  width: 100%;
-  height: 950px;
-}
-
-.letest::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(./assets/Images/Home/back-888.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5; /* 50% opacity */
-  /* z-index: -1; Place the background behind the content */
-/* } */
-/* .container-fluid { */
-  /* position: relative; */
-  /* z-index: 1; */
-/* }  */
+ 
 .letest{
-  background-image: url(./assets/Images/Home/back-888.jpg);
+  background-image: url(./assets/Images/Home/mainbg103.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 950px;
+  height: 900px;
 }
 
 .head1 {
@@ -606,7 +583,7 @@
 .infox {
   padding: 50px;
   margin-top: 5%;
-  background-color: var(--grey);
+  background-color: rgb(28 23 69);
 }
 
 ul li a {
@@ -619,12 +596,12 @@ ul li a {
 }
 
 .cont:hover {
-  color: black;
+  color: red;
   transition: 0.5s;
 }
 
 .button {
-  padding: 10px 30px;
+  padding: 5px 30px;
   font-size: 16px;
   font-weight: 600;
   border: none;
@@ -640,11 +617,13 @@ ul li a {
 }
 
 .button--animated .button__text {
+  color: black;
   display: inline-block;
   transition: transform 0.3s ease;
 }
 
 .button--animated .button__icon {
+  color: black;
   position: absolute;
   right: -20px;
   transition: right 0.3s ease;
@@ -655,6 +634,7 @@ ul li a {
 }
 
 .button--animated:hover .button__icon {
+  color: black;
   right: 20px;
 }
 

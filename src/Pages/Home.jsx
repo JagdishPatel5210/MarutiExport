@@ -138,11 +138,11 @@ function Home() {
 
 
           
-            <div className="container-fluid letest pt-5" id='home' >
+            <div className="container-fluid letest" id='home' >
                 <div className="container " >
-                    <div className="row pt-5">
+                    <div className="row">
                         <div className="col-lg-7" data-aos="zoom-in" data-aos-duration="3000">
-                            <div className='img-stak position-relative pt-5'>
+                            <div className='img-stak position-relative'>
                                 {/* <img src={doteImage} alt="" className="img-fluid rounded-4  stak-img img-1" /> */}
                                 <img src={rufe1Image} alt="" className="img-fluid rounded-4  stak-img img-2" />
                                 <img src={rufe2Image} alt="" className="img-fluid stak-img  rounded-4 img-3" />
@@ -237,7 +237,7 @@ function Home() {
 
             <div className="container-fluid Culture" >
                 <div className="container ">
-                    <div className="row">
+                    <div className="row pt-5">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative pt-5' data-aos="flip-right" data-aos-duration="3000">
                                 {/* <img src={dote5Image} alt="" className="img-fluid rounded-4  stak-img iamg11" /> */}

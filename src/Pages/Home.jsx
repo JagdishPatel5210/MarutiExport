@@ -9,8 +9,8 @@ import { IoEarthSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import WAVES from 'vanta/dist/vanta.waves.min.js';
 import contectlogoImg from '../assets/Images/Home/LogoWhite.png'
+import { Carousel } from 'react-bootstrap';
 
 
 import card11Image from '../assets/Images/Home/card111.jpg';
@@ -19,6 +19,18 @@ import card13Image from '../assets/Images/Home/card-img13.jpg';
 import card14Image from '../assets/Images/Home/cardimg.webp';
 import card15Image from '../assets/Images/Home/diamond-polishing.jpg';
 import card16Image from '../assets/Images/Home/cardimg-222.jpg';
+
+// import video from '../assets/Images/Home/video/video12.jpg'
+
+// import carousel1 from '../assets/Images/Home/carsolimg-14.jpg'
+// import carousel2 from '../assets/Images/Home/carsolimg-3.jpg'
+// import carousel3 from '../assets/Images/Home/carsolimg-11.jpg'
+// import carousel4 from '../assets/Images/Home/carsolimg-113.jpg'
+
+import car1img from'../assets/Images/Home/shapesdimnd-2.jpg'
+import car2img from'../assets/Images/Home/shapesdimnd-3.jpg'
+import car3img from'../assets/Images/Home/carsolimg-12.jpg'
+import car4img from'../assets/Images/Home/shapesdimnd-5.jpg'
 
 // import doteImage from "../assets/Images/Home/back12.jpg";
 import rufeImage from "../assets/Images/Home/diomand-56.jpg";
@@ -37,13 +49,13 @@ import missn33Image from "../assets/Images/Home/1.jpg";
 
 // import dote4Image from "../assets/Images/Home/background-6.jpg";
 import pilr41Image from "../assets/Images/Home/pillars2.png";
-import pilr42Image from "../assets/Images/Home/StockCake-Lustrous Diamond Brilliance_1724156918.jpg";
-import pilr43Image from "../assets/Images/Home/StockCake-Cradling Precious Gem_1724156976.jpg";
+import pilr42Image from "../assets/Images/Home/pillors-11.jpg";
+import pilr43Image from "../assets/Images/Home/pillars-11.jpg";
 
 // import dote5Image from "../assets/Images/Home/background-52.jpg";
-import cult21Image from "../assets/Images/Home/diamonds-4040800_1920.jpg";
-import cult22Image from "../assets/Images/Home/StockCake-Sparkling Diamond Brilliance_1724156554.jpg";
-import cult23Image from "../assets/Images/Home/StockCake-Sparkling Solitaire Diamond_1724156478.jpg";
+import cult21Image from "../assets/Images/Home/cluimg-23.jpg";
+import cult22Image from "../assets/Images/Home/cluimg-12.jpg";
+import cult23Image from "../assets/Images/Home/cluimg-22.jpg";
 
 // import dote6Image from "../assets/Images/Home/172072.jpg";
 import craf11Image from "../assets/Images/Home/process-7.jpg";
@@ -63,26 +75,25 @@ import mark13Image from "../assets/Images/Home/marking-22.jpg";
 // import dot2Image from "../assets/Images/Home/shawing51-.jpg";
 import saw11Image from "../assets/Images/Home/sawing10a.jpg";
 import saw12Image from "../assets/Images/Home/sawing10b.png";
-import saw13Image from "../assets/Images/Home/shawing55-.jpeg";
+import saw13Image from "../assets/Images/Home/shawing55-.jpg";
 
 // import dot13Image from "../assets/Images/Home/polish271.jpg";
-import poli11Image from "../assets/Images/Home/polish-11.png.jpg";
+import poli11Image from "../assets/Images/Home/polish-11.jpg";
 import poli12Image from "../assets/Images/Home/polisg27.jpg";
 import poli13Image from "../assets/Images/Home/polish25.jpg";
 
-function Home() {
-    useEffect(() => {
-        WAVES({
-            el: '#vanta',
-            color: 0xeaeded,
-            waveHeight: 20,
-            shininess: 50,
-            waveSpeed: 1.5,
-            zoom: 0.75
-        })
-    }, [])
-    
+import dimond1Img from "../assets/Images/Home/dimond-21.jpg";
+import dimond2Img from "../assets/Images/Home/dimond-22.jpg";
+import dimond3Img from "../assets/Images/Home/dimond-23.jpg";
+import dimond4Img from "../assets/Images/Home/dimond-24.jpg";
+import dimond5Img from "../assets/Images/Home/dimond-25.jpg";
+import dimond6Img from "../assets/Images/Home/dimond-26.jpg";
+import dimond7Img from "../assets/Images/Home/dimond-27.jpg";
+import dimond8Img from "../assets/Images/Home/dimond-28.jpg";
+import dimond9Img from "../assets/Images/Home/dimond-29.jpg";
+import dimond10Img from "../assets/Images/Home/dimond-30.jpg";
 
+function Home() {
     const goToLogin = () => {
         debugger
         window.location.href = 'http://app.marutiexp.com/login';
@@ -107,6 +118,9 @@ function Home() {
                                     <a className="nav-link" href="#about">About</a>
                                 </li>
                                 <li className="nav-item pe-3 ">
+                                    <a className="nav-link" href="#Shapes">Shapes</a>
+                                </li>
+                                <li className="nav-item pe-3 ">
                                     <a className="nav-link" href="#Quality">Quality</a>
                                 </li>
                                 <li className="nav-item pe-3 ">
@@ -124,22 +138,108 @@ function Home() {
                                 </li>
                             </ul>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
 
             <div className="container-fluid  text-center pt-5 ">
-            <a className="" href="#" id='#'><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
+                <a className="" href="#" id='#'><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
             </div>
 
-            
+
+
+            {/* <div className="container-fluid">
+                <video src={video} className='w-100 h-25' controls>
+                </video>
+            </div> */}
+
+
+            {/* <Carousel className='carsol'>
+      <Carousel.Item className='carsol-item'>
+        <img
+          className=" w-100 h-100"
+          src={carousel1}
+          alt="First slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className='carsol-item'>
+        <img
+          className="h-100 w-100"
+          src={carousel2}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className='carsol-item'>
+        <img
+          className="h-100 w-100"
+          src={carousel3}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className='carsol-item'>
+        <img
+          className="w-100"
+          src={carousel4}
+          alt="four slide"
+        />
+      </Carousel.Item>
+      
+    </Carousel> */}
+
+
+<div className="container">
+    <div className="row">
+        <div className="col-2"></div>
+        <div className="col-8">
+       <Carousel className='carsol'>
+        <Carousel.Item className='carsol-item'>
+        <img
+          className=" w-100 h-100"
+          src={car1img}
+          alt="First slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className='carsol-item'>
+        <img
+          className="h-100 w-100"
+          src={car2img}
+          alt="Second slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className='carsol-item'>
+        <img
+          className="h-100 w-100"
+          src={car3img}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+
+      <Carousel.Item className='carsol-item'>
+        <img
+          className="w-100"
+          src={car4img}
+          alt="four slide"
+        />
+      </Carousel.Item>
+      
+    </Carousel> 
+        </div>
+        <div className="col-2"></div>
+    </div>
+</div>
+  
 
 
 
-          
+
             <div className="container-fluid letest" id='home' >
-                <div className="container " >
+                <div className="container" >
                     <div className="row">
                         <div className="col-lg-7" data-aos="zoom-in" data-aos-duration="3000">
                             <div className='img-stak position-relative'>
@@ -161,13 +261,13 @@ function Home() {
                     </div>
                 </div>
             </div>
-  
+
 
 
 
             <div className="container-fluid fountion" id='about'>
-                <div className="container">
-                    <div className="row">
+                <div className="container pt-5">
+                    <div className="row pt-5 ">
                         <div className="col-lg-5 pt-5" data-aos="flip-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Foundation: Pillars of Trust</h1>
                             <p className='discription pe-5'>
@@ -189,8 +289,8 @@ function Home() {
 
 
             <div className="container-fluid misson" >
-                <div className="container pt-5">
-                    <div className="row pt-5">
+                <div className="container">
+                    <div className="row">
                         <div className="col-lg-7" >
                             <div className='img-stak position-relative pt-5' data-aos="fade-right" data-aos-duration="3000">
                                 {/* <img src={dote3Image} alt="" className="img-fluid rounded-4  stak-img iamg1" /> */}
@@ -210,6 +310,78 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+
+
+            <div className="container-fluid shep" id='Shapes'>
+                <a href="#shap" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
+                    <h1 className='menu-bottom-line'>Shapes</h1> </a>
+                <div className="row d-flex p-2">
+                    <div className="col-1"></div>
+                    <div className="col-1">
+                        <a href="#round" className="text-decoration-none">
+                            <img src={dimond1Img} alt="dimond1 bg-black" className='border-3' />
+                            <p className="p-3 dim"> Round</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Oval" className="text-decoration-none">
+                            <img src={dimond2Img} alt="dimond2" />
+                            <p className="p-3  dim"> Oval</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Emerald" className="text-decoration-none">
+                            <img src={dimond3Img} alt="dimond3" />
+                            <p className="p-3  dim"> Emerald</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Cushion" className="text-decoration-none">
+                            <img src={dimond4Img} alt="dimond4" />
+                            <p className="p-3  dim"> Cushion</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Pear" className="text-decoration-none">
+                            <img src={dimond5Img} alt="dimond5" />
+                            <p className="p-3  dim"> Pear</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Radiant" className="text-decoration-none">
+                            <img src={dimond6Img} alt="dimond6" />
+                            <p className="p-3  dim"> Radiant</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Princess" className="text-decoration-none">
+                            <img src={dimond7Img} alt="dimond7" />
+                            <p className="p-3  dim"> Princess</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Marquise" className="text-decoration-none">
+                            <img src={dimond8Img} alt="dimond8" />
+                            <p className="p-3  dim"> Marquise</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Asscher" className="text-decoration-none">
+                            <img src={dimond9Img} alt="dimond9" />
+                            <p className="p-3 dim"> Asscher</p>
+                        </a>
+                    </div>
+                    <div className="col-1">
+                        <a href="Heart" className="text-decoration-none">
+                            <img src={dimond10Img} alt="dimond10" />
+                            <p className="p-3 dim"> Heart</p>
+                        </a>
+                    </div>
+                    <div className="col-1"></div>
+                </div>
+            </div>
+
 
 
             <div className="container-fluid vision" id='Quality'>
@@ -266,17 +438,17 @@ function Home() {
 
 
 
-            <div className="container-fluid pt-5 pb-5 conte" id='Process'>
+            <div className="container-fluid conte" id='Process'>
                 <a href="#poss" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
                     <h1 className='menu-bottom-line'>Process</h1> </a>
+
+
                 <div className="row">
-
-
                     <div className="col-lg-2"  >
                         <div class="container1">
                             <div class="card border-0">
                                 <div class="face face1">
-                                    <div class="content"> <img src={card11Image} alt="" className="img-fluid w-100 h-100"/> </div>
+                                    <div class="content"> <img src={card11Image} alt="" className="img-fluid w-100 h-100" /> </div>
                                 </div>
                                 <div class="face face2">
                                     <div class="content">
@@ -377,7 +549,7 @@ function Home() {
             </div>
 
 
-            <div className="container-fluid pt-5 Craft" id='craftmanship'>
+            <div className="container-fluid Craft" id='craftmanship'>
                 <div className="container pt-5">
                     <div className="row pt-5">
                         <div className="col-lg-7" >
@@ -541,11 +713,11 @@ function Home() {
                                 <form>
                                     <div className=" pt-3 d-flex">
                                         <FaUserAlt className='fs-5 m-2 cont' />
-                                        <input type="text" className="form-control p-0" id="name" placeholder="Enter Name" name="name" />
+                                        <input type="text" className="form-control p-0 mx-1" id="name" placeholder="Enter Name" name="name" />
                                     </div>
                                     <div className="my-4 d-flex">
                                         <IoMdMail className='fs-5 m-2 cont' />
-                                        <input type="email" className="form-control p-0" id="email" placeholder="Enter email" name="email" />
+                                        <input type="email" className="form-control p-0 mx-1" id="email" placeholder="Enter email" name="email" />
                                     </div>
                                     <div className="button-grid text-center ">
                                         <button type='submit' class="button button--animated bg-light" onClick={((e) => { e.preventDefault(); goToLogin() })}>
@@ -555,6 +727,7 @@ function Home() {
 
                                     </div>
                                 </form>
+
                             </div>
                         </div>
                     </div>
@@ -562,6 +735,7 @@ function Home() {
             </div>
 
         </>
+
     )
 }
 

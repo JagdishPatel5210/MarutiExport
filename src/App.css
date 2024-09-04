@@ -21,6 +21,17 @@
   height: 120px;
 }
 
+
+
+/* .carsol{
+  width: 100%;
+  height: 100%;
+} */
+.carsol-item{
+    height: 800px;
+
+}
+
 .menu ul{
   list-style: none;
   margin: 0;
@@ -79,14 +90,13 @@
   width: 100%;
 }
 
- 
+
 .letest{
-  background-image: url(./assets/Images/Home/mainbg103.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 860px;
+  padding-top:5%;
+   padding-bottom: 25%;
 }
+ 
+
 
 .head1 {
   margin: 30px;
@@ -138,21 +148,25 @@
 .img-3 {
   z-index: 1;
   width: 35%;
-  top: 100px;
-  left: 475px;
+  top: 110px;
+  left: 480px;
 
 }
 
 .img-4 {
   z-index: 4;
   width: 55%;
-  top: 440px;
+  top: 430px;
   left: 330px;
 }
 
 .fountion{
-  padding-top:10%;
-   padding-bottom: 25%;
+  background-image: url(./assets/Images/Home/mainbg103.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  padding-top: 5%;
 }
 
 .imag-1 {
@@ -184,11 +198,8 @@
 }
 
 .misson{
-   background-image: url(./assets/Images/Home/back-img111.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 1000px;
+   padding-top:8%;
+   padding-bottom: 20%;
 }
 
 .iamg1 {
@@ -221,10 +232,39 @@
     left: 345px;
 }
 
+.shep{
+  background-image: url(./assets/Images/Home/shepandpro-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	width:100%;
+	margin: 50px 0 50px 0;
+	text-align:center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+	
+	a{
+		font-size:24px;
+		margin: 10px;
+		display:inline-block;
+	}
+}
+.dim {
+  color: gray;
+
+}
+
+ .dim:hover{
+  color: rgb(28 23 69) ;
+}
+
 
 .vision{
-  padding-top:10%;
-   padding-bottom: 30%;
+  background-image: url(./assets/Images/Home/back-img111.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  padding-top: 8%;
 }
 
 
@@ -259,11 +299,8 @@
 
 
 .Culture{
-  background-image: url(./assets/Images/Home/back-img8881.jpg );
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 1000px;
+  padding-top:8%;
+  padding-bottom: 8%;
 }
 
 .iamg11 {
@@ -363,10 +400,14 @@
 
 
 .conte{
+  background-image: url(./assets/Images/Home/shepandpro-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 	width:100%;
 	margin: 50px 0 50px 0;
 	text-align:center;
-  padding-bottom: 50%;
+  padding-top: 5%;
+  padding-bottom: 15%;
 	
 	a{
 		font-size:24px;
@@ -377,7 +418,6 @@
 }
 
 .btn-1{
-	/* color:$white; */
 	transition:.3s;
 	
 	&:after{
@@ -393,7 +433,6 @@
 		text-shadow: 0 0 2px #fff;
 		
 		&:after{
-			/* border-color:$white; */
 			width:100%;
 			box-shadow: 0 0 5px 0 #fff;
 		}
@@ -407,29 +446,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 950px;
-  margin-top: 15%;
+  height: 1000px;
+  /* margin-top: 15%; */
 }
-
- /* .Craft {
-  position: relative;
-  width: 100%;
-  height: 950px;
-}
-.Craft::before {
-  content: '';
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(./assets/Images/Home/back-888.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;       
-  z-index: -1; 
-}
-  */
 
 
 .iamg21 {
@@ -492,7 +511,7 @@
   z-index: 3;
   width: 52%;
   top: -30px;
-  left: 230px;
+  left: 240px;
 }
 
 .marking{
@@ -500,7 +519,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height:950px; 
+  height:1000px; 
   padding-top: 14%;
 }
 
@@ -514,7 +533,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 950px; 
+  height: 1000px; 
   padding-top: 10%; 
 }
 
@@ -695,6 +714,8 @@ ul li a {
     padding: 0 20px;
   }
 
+ 
+
   /* Buttons */
   /* .button {
       width: 100%;
@@ -724,3 +745,4 @@ ul li a {
       font-size: 24px;
   }
 } */
+

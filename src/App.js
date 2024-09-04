@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './Pages/Home';
 
+import ScrollToTopButton from './Pages/ScrollToTopButton';
+
+
 function App() {
   return (
     <>
@@ -11,6 +14,8 @@ function App() {
             <Route path='/' element={<Home />} />
           </Routes>
         </BrowserRouter>
+         
+        <ScrollToTopButton />
     </>
   );
 }

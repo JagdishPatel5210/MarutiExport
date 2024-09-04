@@ -38,9 +38,9 @@ import rufe1Image from "../assets/Images/Home/Victor_Rough.png";
 import rufe2Image from "../assets/Images/Home/diamond-131.jpg";
 
 // import dote2Image from "../assets/Images/Home/diomand-222.jpg";
-import our2Image from "../assets/Images/Home/culture5.png";
-import pill2Image from "../assets/Images/Home/diamond-225.jpg";
-import well2Image from "../assets/Images/Home/download-212.jpeg";
+import fount1Image from "../assets/Images/Home/culture5.png";
+import fount2Image from "../assets/Images/Home/diamond-225.jpg";
+import fount3Image from "../assets/Images/Home/pillors-22.jpg";
 
 // import dote3Image from "../assets/Images/Home/background-3.jpg";
 import missn31Image from "../assets/Images/Home/mission3.jpg";
@@ -50,7 +50,7 @@ import missn33Image from "../assets/Images/Home/1.jpg";
 // import dote4Image from "../assets/Images/Home/background-6.jpg";
 import pilr41Image from "../assets/Images/Home/pillars2.png";
 import pilr42Image from "../assets/Images/Home/pillors-11.jpg";
-import pilr43Image from "../assets/Images/Home/pillars-11.jpg";
+import pilr43Image from "../assets/Images/Home/vision-12.jpg";
 
 // import dote5Image from "../assets/Images/Home/background-52.jpg";
 import cult21Image from "../assets/Images/Home/cluimg-23.jpg";
@@ -63,13 +63,13 @@ import craf12Image from "../assets/Images/Home/diomand-54.jpg";
 import craf13Image from "../assets/Images/Home/diomand-53.jpg";
 
 // import dote7Image from "../assets/Images/Home/backgrund-32.jpg";
-import step11Image from "../assets/Images/Home/diamond61.jpeg";
+import step11Image from "../assets/Images/Home/rufgedimond-61.jpg";
 import step12Image from "../assets/Images/Home/step-66.jpg";
 import step13Image from "../assets/Images/Home/shorting8.png";
 
 // import dot1Image from "../assets/Images/Home/marking33.jpg";
 import mark11Image from "../assets/Images/Home/marking9.png";
-import mark12Image from "../assets/Images/Home/marking44.jpg";
+import mark12Image from "../assets/Images/Home/marking-14a.jpg";
 import mark13Image from "../assets/Images/Home/marking-22.jpg";
 
 // import dot2Image from "../assets/Images/Home/shawing51-.jpg";
@@ -278,9 +278,9 @@ function Home() {
                         <div className="col-lg-7">
                             <div className='img-stak position-relative pt-5' data-aos="flip-right" data-aos-duration="3000" >
                                 {/* <img src={dote2Image} alt="" className="img-fluid rounded-4  stak-img imag-1" /> */}
-                                <img src={pill2Image} alt="" className="img-fluid rounded-4  stak-img imag-2" />
-                                <img src={well2Image} alt="" className="img-fluid rounded-4  stak-img  imag-3" />
-                                <img src={our2Image} alt="rufe" className="img-fluid rounded-4  stak-img imag-4" />
+                                <img src={fount2Image} alt="" className="img-fluid rounded-4  stak-img imag-2" />
+                                <img src={fount3Image} alt="" className="img-fluid rounded-4  stak-img  imag-3" />
+                                <img src={fount1Image} alt="rufe" className="img-fluid rounded-4  stak-img imag-4" />
                             </div>
                         </div>
                     </div>

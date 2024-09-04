@@ -75,7 +75,7 @@ import mark13Image from "../assets/Images/Home/marking-22.jpg";
 // import dot2Image from "../assets/Images/Home/shawing51-.jpg";
 import saw11Image from "../assets/Images/Home/sawing10a.jpg";
 import saw12Image from "../assets/Images/Home/sawing10b.png";
-import saw13Image from "../assets/Images/Home/shawing55-.jpg";
+import saw13Image from "../assets/Images/Home/shawing-44.jpg";
 
 // import dot13Image from "../assets/Images/Home/polish271.jpg";
 import poli11Image from "../assets/Images/Home/polish-11.jpg";

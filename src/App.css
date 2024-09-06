@@ -21,12 +21,86 @@
   height: 120px;
 }
 
+.carsol{
+  height: 800px;
+  background-image: url(./assets/Images/Home/shepandpro-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carsolimg-2{
+  z-index: 2;
+  top: 25px;
+  left: 0px;
+}
+.carsolimg-1{
+  z-index: 1;
+  top: 200px;
+  left: 470px;
+}
+.carsolimg-3{
+  z-index: 3;
+  top:110px;
+  left: 940px;
+}
+.carsolimg-4{
+  z-index: 4;
+  top: 470px;
+  left: 1410px;
+}
 
 
-/* .carsol{
-  width: 100%;
-  height: 100%;
-} */
+
+
+.secimg-1{
+  z-index: 1;
+  top: 80px;
+  left: 420px;
+}
+.secimg-2{
+  z-index: 2;
+  top: 460px;
+  left: 460px;
+}
+.secimg-3{
+  z-index: 3;
+  top: 30px;
+  left: 960px;
+}
+.secimg-4{
+  z-index: 4;
+  top: 360px;
+  left: 1000px;
+}
+
+.secimg-5{
+  z-index:5;
+  top: 465px;
+  left: 1420px;
+}
+.secimg-6{
+  z-index: 6;
+  top: 395px;
+  left: 840px;
+}
+.secimg-7{
+  z-index: 7;
+  top: 123px;
+  left: 1320px;
+}
+.secimg-8{
+  z-index: 8;
+  top: 20px;
+  left: 780px;
+}
+
+
+
+
+
+
+
+
 .carsol-item{
     height: 800px;
 
@@ -161,7 +235,7 @@
 }
 
 .fountion{
-  background-image: url(./assets/Images/Home/mainbg103.jpg);
+  background-image: url(./assets/Images/Home/background-123.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -233,9 +307,6 @@
 }
 
 .shep{
-  background-image: url(./assets/Images/Home/shepandpro-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 	width:100%;
 	margin: 50px 0 50px 0;
 	text-align:center;
@@ -259,7 +330,7 @@
 
 
 .vision{
-  background-image: url(./assets/Images/Home/back-img111.jpg);
+  background-image: url(./assets/Images/Home/background-881.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -400,9 +471,10 @@
 
 
 .conte{
-  background-image: url(./assets/Images/Home/shepandpro-2.jpg);
+  /* background-image: url(./assets/Images/Home/shepandpro-2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgb(165, 163, 163);
 	width:100%;
 	margin: 50px 0 50px 0;
 	text-align:center;
@@ -442,8 +514,8 @@
 
 
 .Craft{
-  background-image: url(./assets/Images/Home/bac-image444.jpg);
-  background-repeat: no-repeat;
+  background-image: url(./assets/Images/Home/background-35.jpg);
+  background-repeat: cover;
   background-size: cover;
   width: 100%;
   height: 1000px;
@@ -515,10 +587,9 @@
 }
 
 .marking{
-  background-image: url(./assets/Images/Home/background-image-22.jpg );
+  background-image: url(./assets/Images/Home/background-881.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
   height:1000px; 
   padding-top: 14%;
 }
@@ -529,10 +600,8 @@
 }
 
 .polish{
-  background-image: url(./assets/Images/Home/bac-image336.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  background-image: url(./assets/Images/Home/background-35.jpg);
+  background-repeat:  cover ;
   height: 1000px; 
   padding-top: 10%; 
 }

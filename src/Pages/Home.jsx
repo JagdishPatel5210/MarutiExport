@@ -11,7 +11,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import contectlogoImg from '../assets/Images/Home/LogoWhite.png'
 import { Carousel } from 'react-bootstrap';
-
+import "../Pages/scroll.js"
 
 import card11Image from '../assets/Images/Home/card111.jpg';
 import card12Image from '../assets/Images/Home/cardimg12a.jpg';
@@ -22,15 +22,32 @@ import card16Image from '../assets/Images/Home/cardimg-222.jpg';
 
 // import video from '../assets/Images/Home/video/video12.jpg'
 
-// import carousel1 from '../assets/Images/Home/carsolimg-14.jpg'
-// import carousel2 from '../assets/Images/Home/carsolimg-3.jpg'
-// import carousel3 from '../assets/Images/Home/carsolimg-11.jpg'
-// import carousel4 from '../assets/Images/Home/carsolimg-113.jpg'
+import carousel11 from '../assets/Images/Home/carsolimg-2.jpg'
+import carousel12 from '../assets/Images/Home/shapesdimnd-2.jpg'
+import carousel13 from '../assets/Images/Home/shapesdimnd-3.jpg'
+import carousel14 from '../assets/Images/Home/carsolimg-5.jpg'
 
-import car1img from'../assets/Images/Home/shapesdimnd-2.jpg'
-import car2img from'../assets/Images/Home/shapesdimnd-3.jpg'
-import car3img from'../assets/Images/Home/carsolimg-12.jpg'
-import car4img from'../assets/Images/Home/shapesdimnd-5.jpg'
+import carousel2 from '../assets/Images/Home/carsolimg-3.jpg'
+
+
+import carousel31 from '../assets/Images/Home/photoescarsol-156.jpg'
+import carousel32 from '../assets/Images/Home/photoescarsol-177.jpg'
+import carousel33 from '../assets/Images/Home/photoescarsol-166.jpg'
+import carousel34 from '../assets/Images/Home/photoescarsol-188.jpg'
+
+import carousel41 from '../assets/Images/Home/photoescarsol-155.jpg'
+import carousel42 from '../assets/Images/Home/photoescarsol-151.jpg'
+import carousel43 from '../assets/Images/Home/photoescarsol-144.jpg'
+import carousel44 from '../assets/Images/Home/photoescarsol-157.jpg'
+
+
+import carousel3 from '../assets/Images/Home/carsolimg-11.jpg'
+import carousel4 from '../assets/Images/Home/carsolimg-113.jpg'
+
+// import car1img from'../assets/Images/Home/shapesdimnd-2.jpg'
+// import car2img from'../assets/Images/Home/shapesdimnd-3.jpg'
+// import car3img from'../assets/Images/Home/carsolimg-12.jpg'
+// import car4img from'../assets/Images/Home/shapesdimnd-5.jpg'
 
 // import doteImage from "../assets/Images/Home/back12.jpg";
 import rufeImage from "../assets/Images/Home/diomand-56.jpg";
@@ -144,101 +161,52 @@ function Home() {
             </div>
 
             <div className="container-fluid  text-center pt-5 ">
-                <a className="" href="#" id='#'><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
+                <a className="" href='' ><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
+            </div>
+
+            <div className="container-fluid w-100 h-100 bg-secondary">
+
             </div>
 
 
 
-            {/* <div className="container-fluid">
-                <video src={video} className='w-100 h-25' controls>
-                </video>
-            </div> */}
+            <Carousel className='carsol'>
+                <Carousel.Item className='carsol-item'>
+                    <div className="img-stak position-relative">
+                        <img src={carousel11} alt="first slide" className="w-25  img-fluid stak-img carsolimg-1" />
+                        <img src={carousel12} alt="first slide" className="w-25  h-75 img-fluid stak-img carsolimg-2" />
+                        <img src={carousel13} alt="first slide" className="w-25 h-75 img-fluid stak-img carsolimg-3" />
+                        <img src={carousel14} alt="first slide" className="w-25 img-fluid stak-img carsolimg-4" />
+                    </div>
+                </Carousel.Item>
+
+                <Carousel.Item className='carsol-item'>
+                    <img src={carousel2} alt="Second slide" className="w-100 h-100" />
+                </Carousel.Item>
+
+                <Carousel.Item className='carsol-item'>
+                    <div className="img-stak position-relative">
+                        <img src={carousel31} alt="first slide" className="w-25 img-fluid stak-img secimg-5" />
+                        <img src={carousel32} alt="first slide" className="w-25 img-fluid stak-img secimg-6" />
+                        <img src={carousel33} alt="first slide" className="w-25 img-fluid stak-img secimg-7" />
+                        <img src={carousel34} alt="first slide" className="w-25 img-fluid stak-img secimg-8" />
+                    </div>
+                </Carousel.Item>
+
+                <Carousel.Item className='carsol-item'>
+                <div className="img-stak position-relative">
+                        <img src={carousel41} alt="first slide" className="w-25 img-fluid stak-img secimg-1" />
+                        <img src={carousel42} alt="first slide" className="w-25 img-fluid stak-img secimg-2" />
+                        <img src={carousel43} alt="first slide" className="w-25 img-fluid stak-img secimg-3" />
+                        <img src={carousel44} alt="first slide" className="w-25 img-fluid stak-img secimg-4" />
+                    </div>
+                </Carousel.Item>
+
+            </Carousel>
 
 
-            {/* <Carousel className='carsol'>
-      <Carousel.Item className='carsol-item'>
-        <img
-          className=" w-100 h-100"
-          src={carousel1}
-          alt="First slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item className='carsol-item'>
-        <img
-          className="h-100 w-100"
-          src={carousel2}
-          alt="Second slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item className='carsol-item'>
-        <img
-          className="h-100 w-100"
-          src={carousel3}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item className='carsol-item'>
-        <img
-          className="w-100"
-          src={carousel4}
-          alt="four slide"
-        />
-      </Carousel.Item>
-      
-    </Carousel> */}
-
-
-<div className="container">
-    <div className="row">
-        <div className="col-2"></div>
-        <div className="col-8">
-       <Carousel className='carsol'>
-        <Carousel.Item className='carsol-item'>
-        <img
-          className=" w-100 h-100"
-          src={car1img}
-          alt="First slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item className='carsol-item'>
-        <img
-          className="h-100 w-100"
-          src={car2img}
-          alt="Second slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item className='carsol-item'>
-        <img
-          className="h-100 w-100"
-          src={car3img}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item className='carsol-item'>
-        <img
-          className="w-100"
-          src={car4img}
-          alt="four slide"
-        />
-      </Carousel.Item>
-      
-    </Carousel> 
-        </div>
-        <div className="col-2"></div>
-    </div>
-</div>
-  
-
-
-
-
-            <div className="container-fluid letest" id='home' >
+<div className="section" id='home'>
+            <div className="container-fluid  letest" >
                 <div className="container" >
                     <div className="row">
                         <div className="col-lg-7" data-aos="zoom-in" data-aos-duration="3000">
@@ -261,14 +229,15 @@ function Home() {
                     </div>
                 </div>
             </div>
+            </div>
 
 
 
-
-            <div className="container-fluid fountion" id='about'>
+            <div className="section" id='about'>
+            <div className="container-fluid fountion" >
                 <div className="container pt-5">
                     <div className="row pt-5 ">
-                        <div className="col-lg-5 pt-5" data-aos="flip-left" data-aos-duration="3000">
+                        <div className="col-lg-5 pt-5" data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Foundation: Pillars of Trust</h1>
                             <p className='discription pe-5'>
                                 Maruti Export was built on the foundation of four key pillars -faith, trust, honesty & transparency.
@@ -276,7 +245,7 @@ function Home() {
                             </p>
                         </div>
                         <div className="col-lg-7">
-                            <div className='img-stak position-relative pt-5' data-aos="flip-right" data-aos-duration="3000" >
+                            <div className='img-stak position-relative pt-5'data-aos="fade-left" data-aos-duration="3000" >
                                 {/* <img src={dote2Image} alt="" className="img-fluid rounded-4  stak-img imag-1" /> */}
                                 <img src={fount2Image} alt="" className="img-fluid rounded-4  stak-img imag-2" />
                                 <img src={fount3Image} alt="" className="img-fluid rounded-4  stak-img  imag-3" />
@@ -286,20 +255,21 @@ function Home() {
                     </div>
                 </div>
             </div>
+            </div>
 
 
-            <div className="container-fluid misson" >
+            <div className="container-fluid section misson" >
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7" >
-                            <div className='img-stak position-relative pt-5' data-aos="fade-right" data-aos-duration="3000">
+                            <div className='img-stak position-relative pt-5' data-aos="zoom-in" data-aos-duration="3000">
                                 {/* <img src={dote3Image} alt="" className="img-fluid rounded-4  stak-img iamg1" /> */}
                                 <img src={missn32Image} alt="" className="img-fluid rounded-4  stak-img iamg2" />
                                 <img src={missn33Image} alt="" className="img-fluid stak-img rounded-4 iamg3" />
                                 <img src={missn31Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg4" />
                             </div>
                         </div>
-                        <div className="col-lg-4  pt-5" data-aos="fade-left" data-aos-duration="3000">
+                        <div className="col-lg-4  pt-5" data-aos="zoom-in" data-aos-duration="3000">
                             <h1 className='secondhead pt-5'>Our Mission: Excellence in Diamonds</h1>
                             <p className='discription pt-2'>
                                 Our Mission is to be the leading diamond manufacturer in the industry while guaranteeing maximum
@@ -313,68 +283,68 @@ function Home() {
 
 
 
-            <div className="container-fluid shep" id='Shapes'>
+            <div className="container-fluid section shep bg-light" id='Shapes'>
                 <a href="#shap" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
                     <h1 className='menu-bottom-line'>Shapes</h1> </a>
                 <div className="row d-flex p-2">
                     <div className="col-1"></div>
                     <div className="col-1">
-                        <a href="#round" className="text-decoration-none">
-                            <img src={dimond1Img} alt="dimond1 bg-black" className='border-3' />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond1Img} alt="dimond1" className=' shadow' />
                             <p className="p-3 dim"> Round</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Oval" className="text-decoration-none">
-                            <img src={dimond2Img} alt="dimond2" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond2Img} alt="dimond2"  className=' shadow'  />
                             <p className="p-3  dim"> Oval</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Emerald" className="text-decoration-none">
-                            <img src={dimond3Img} alt="dimond3" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond3Img} alt="dimond3"  className=' shadow'  />
                             <p className="p-3  dim"> Emerald</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Cushion" className="text-decoration-none">
-                            <img src={dimond4Img} alt="dimond4" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond4Img} alt="dimond4" className=' shadow' />
                             <p className="p-3  dim"> Cushion</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Pear" className="text-decoration-none">
-                            <img src={dimond5Img} alt="dimond5" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond5Img} alt="dimond5" className=' shadow' />
                             <p className="p-3  dim"> Pear</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Radiant" className="text-decoration-none">
-                            <img src={dimond6Img} alt="dimond6" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond6Img} alt="dimond6" className=' shadow' />
                             <p className="p-3  dim"> Radiant</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Princess" className="text-decoration-none">
-                            <img src={dimond7Img} alt="dimond7" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond7Img} alt="dimond7" className=' shadow'/>
                             <p className="p-3  dim"> Princess</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Marquise" className="text-decoration-none">
-                            <img src={dimond8Img} alt="dimond8" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond8Img} alt="dimond8" className=' shadow' />
                             <p className="p-3  dim"> Marquise</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Asscher" className="text-decoration-none">
-                            <img src={dimond9Img} alt="dimond9" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond9Img} alt="dimond9" className=' shadow'/>
                             <p className="p-3 dim"> Asscher</p>
                         </a>
                     </div>
                     <div className="col-1">
-                        <a href="Heart" className="text-decoration-none">
-                            <img src={dimond10Img} alt="dimond10" />
+                        <a href="" className="text-decoration-none">
+                            <img src={dimond10Img} alt="dimond10" className=' shadow' />
                             <p className="p-3 dim"> Heart</p>
                         </a>
                     </div>
@@ -387,7 +357,7 @@ function Home() {
             <div className="container-fluid vision" id='Quality'>
                 <div className="container mt-5">
                     <div className="row mt-5">
-                        <div className="col-lg-5 pt-5" data-aos="flip-up" data-aos-duration="3000">
+                        <div className="col-lg-5 pt-5"  data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Vision: Shaping the Future of Diamonds</h1>
                             <p className='discription pe-5'>
                                 Maruti Export's vision is to adopt the latest manufacturing technology and innovative management concepts to become the world's leading diamond
@@ -395,8 +365,8 @@ function Home() {
                             </p>
                         </div>
                         <div className="col-lg-7">
-                            <div className='img-stak position-relative pt-5' data-aos="flip-down" data-aos-duration="3000">
-                                {/* <img src={dote4Image} alt="" className="img-fluid rounded-4  stak-img imag4-1" /> */}
+                            <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000">
+                                {/* <img src={dote4Image} alt="" className="img-fluid rounded-4   stak-img imag4-1" /> */}
                                 <img src={pilr42Image} alt="" className="img-fluid rounded-4  stak-img imag4-2" />
                                 <img src={pilr43Image} alt="" className="img-fluid rounded-4  stak-img  imag4-3" />
                                 <img src={pilr41Image} alt="rufe" className="img-fluid rounded-4  stak-img imag4-4" />
@@ -411,15 +381,15 @@ function Home() {
                 <div className="container ">
                     <div className="row pt-5">
                         <div className="col-lg-7" >
-                            <div className='img-stak position-relative pt-5' data-aos="flip-right" data-aos-duration="3000">
+                            <div className='img-stak position-relative pt-5'  data-aos="zoom-in" data-aos-duration="3000">
                                 {/* <img src={dote5Image} alt="" className="img-fluid rounded-4  stak-img iamg11" /> */}
                                 <img src={cult21Image} alt="" className="img-fluid rounded-4  stak-img iamg12" />
                                 <img src={cult22Image} alt="" className="img-fluid stak-img rounded-4 iamg13" />
                                 <img src={cult23Image} alt="rufe" className="img-fluid rounded-4  stak-img iamg14" />
                             </div>
                         </div>
-                        <div className="col-lg-4 " data-aos="flip-left" data-aos-duration="3000" >
-                            <h1 className='secondhead pt-5'>A Culture of Performance</h1>
+                        <div className="col-lg-4 " data-aos="zoom-in" data-aos-duration="3000">
+                            <h1 className='secondhead pt-5 fw-bold'>A Culture of Performance</h1>
                             <p className='discription pt-2'>
                                 A performance-oriented culture is rooted in our company's DNA, making us globally recognized as the preferred supplier
                                 in the industry. We, at Maruti Export ensure that the world's most precious gift is received by our customers with care &
@@ -438,7 +408,7 @@ function Home() {
 
 
 
-            <div className="container-fluid conte" id='Process'>
+            <div className="container-fluid conte bg-light" id='Process'>
                 <a href="#poss" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
                     <h1 className='menu-bottom-line'>Process</h1> </a>
 
@@ -446,7 +416,7 @@ function Home() {
                 <div className="row">
                     <div className="col-lg-2"  >
                         <div class="container1">
-                            <div class="card border-0">
+                            <div class="card border-0 bg-light">
                                 <div class="face face1">
                                     <div class="content"> <img src={card11Image} alt="" className="img-fluid w-100 h-100" /> </div>
                                 </div>
@@ -463,7 +433,7 @@ function Home() {
 
                     <div className="col-lg-2" >
                         <div class="container1">
-                            <div class="card border-0">
+                            <div class="card border-0 bg-light">
                                 <div class="face face1">
                                     <div class="content">  <img src={card12Image} alt="" className="w-100 h-100 " /> </div>
                                 </div>
@@ -480,7 +450,7 @@ function Home() {
 
                     <div className="col-lg-2">
                         <div class="container1">
-                            <div class="card border-0">
+                            <div class="card border-0 bg-light">
                                 <div class="face face1">
                                     <div class="content">  <img src={card13Image} alt="" className="w-100" /> </div>
                                 </div>
@@ -497,7 +467,7 @@ function Home() {
 
                     <div className="col-lg-2">
                         <div class="container1">
-                            <div class="card border-0">
+                            <div class="card border-0 bg-light">
                                 <div class="face face1">
                                     <div class="content">   <img src={card14Image} alt="" className="w-100 " /> </div>
                                 </div>
@@ -514,7 +484,7 @@ function Home() {
 
                     <div className="col-lg-2">
                         <div class="container1">
-                            <div class="card border-0">
+                            <div class="card border-0 bg-light ">
                                 <div class="face face1">
                                     <div class="content">  <img src={card15Image} alt="" className="w-100 image" /> </div>
                                 </div>
@@ -531,7 +501,7 @@ function Home() {
 
                     <div className="col-lg-2">
                         <div class="container1">
-                            <div class="card border-0">
+                            <div class="card border-0 bg-light">
                                 <div class="face face1">
                                     <div class="content">   <img src={card16Image} alt="" className="w-100" />  </div>
                                 </div>
@@ -561,7 +531,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="col-lg-4 " data-aos="fade-right" data-aos-duration="3000" >
-                            <h1 className='secondhead pt-5'>Craftsmanship: The Heart of Our Process</h1>
+                            <h1 className='secondhead pt-5 fw-bold'>Craftsmanship: The Heart of Our Process</h1>
                             <p className='discription pt-2'>
                                 Our skilled artisans are driven by a desire to create the most exquisite diamond. The vast majority of our highly
                                 experienced workforce has been with us for many years, ensuring continuity, competence, and quality across the board.

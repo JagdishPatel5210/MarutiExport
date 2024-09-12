@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import logoImage from '../assets/Images/Home/Maruti Export Final 01.png';
 import { FaFacebookF } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
@@ -110,6 +112,7 @@ import dimond8Img from "../assets/Images/Home/dimond-28.jpg";
 import dimond9Img from "../assets/Images/Home/dimond-29.jpg";
 import dimond10Img from "../assets/Images/Home/dimond-30.jpg";
 
+
 function Home() {
     const goToLogin = () => {
         debugger
@@ -120,57 +123,51 @@ function Home() {
     return (
         <>
             <div data-aos="fade-right"></div>
-            <div className="container-fluid  nav1" >
-                <div className='container'>
-                    <div className="row d-flex py-2">
-                        {/* <div className="col-lg-4 ">
-                            <a className="navbar-brand " href="#" id='#'><img src={logoImage} alt="logo" className="w-25" /></a>
-                        </div> */}
-                        <div className=" menu menu-2 ">
-                            <ul className="nav d-flex fw-bold justify-content-end ">
-                                <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#">Home</a>
-                                </li>
-                                <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#about">About</a>
-                                </li>
-                                <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#Shapes">Shapes</a>
-                                </li>
-                                <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#Quality">Quality</a>
-                                </li>
-                                <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#Process">Process</a>
-                                </li>
-                                <li className="nav-item pe-3 ">
-                                    <a className="nav-link" href="#Contect">Contact Us</a>
-                                </li>
-                                <li>
-                                    <div className="button-grid text-center">
-                                        <button class="button button--animated bg-light" onClick={(() => goToLogin())}>
-                                            <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1 ' />
-                                        </button>
-                                    </div>
-                                </li>
-                            </ul>
+            <div className="container-fluid " >
+                <div className="nav1">
+                    <div className="container">
+                        <div className="row d-flex flex-row-reverse">
+                            {/* <div className="col-4"></div> */}
+                            <div className="col-8">
+                                <Navbar collapseOnSelect expand="lg" justify-content-end>
+                                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                                    <Navbar.Collapse id="responsive-navbar-nav">
+                                        <div className=" menu menu-2 ">
+                                            <Nav className="d-flex justify-content-end">
+                                                <Nav.Link href="#home" className='text-light px-4 menu-line'>Home</Nav.Link>
+                                                <Nav.Link href="#about" className='text-light px-4 menu-line'>About</Nav.Link>
+                                                <Nav.Link href="#Shapes" className='text-light px-4 menu-line'>Shapes</Nav.Link>
+                                                <Nav.Link href="#Quality" className='text-light px-4 menu-line'>Quality</Nav.Link>
+                                                <Nav.Link href="#Process" className='text-light px-4 menu-line'>Process</Nav.Link>
+                                                <Nav.Link href="#Contect" className='text-light px-4 menu-line'>Contact Us</Nav.Link>
+                                                <div className="button-grid text-center px-5">
+                                                    <button class="button button--animated bg-light" onClick={(() => goToLogin())}>
+                                                        <span class="button__text">Login </span> <FaArrowRightLong className='button__icon m-1' />
+                                                    </button>
+                                                </div>
+                                            </Nav>
+                                        </div>
+                                    </Navbar.Collapse>
+                                </Navbar>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
 
             <div className="container-fluid  text-center pt-5 ">
                 <a className="" href='' ><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
             </div>
 
-            <div className="container-fluid w-100 h-100 bg-secondary">
 
-            </div>
-
-
-
-            <Carousel className='carsol'>
+            {/* <div className="container-fluid"> */}
+            <Carousel className='carsol' fade>
                 <Carousel.Item className='carsol-item'>
                     <div className="img-stak position-relative">
                         <img src={carousel11} alt="first slide" className="w-25  img-fluid stak-img carsolimg-1" />
@@ -181,7 +178,7 @@ function Home() {
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
-                    <img src={carousel2} alt="Second slide" className="w-100 h-100" />
+                    <img src={carousel2} alt="Second slide" className="w-100  diamonda" />
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
@@ -194,7 +191,7 @@ function Home() {
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
-                <div className="img-stak position-relative">
+                    <div className="img-stak position-relative">
                         <img src={carousel41} alt="first slide" className="w-25 img-fluid stak-img secimg-1" />
                         <img src={carousel42} alt="first slide" className="w-25 img-fluid stak-img secimg-2" />
                         <img src={carousel43} alt="first slide" className="w-25 img-fluid stak-img secimg-3" />
@@ -203,10 +200,11 @@ function Home() {
                 </Carousel.Item>
 
             </Carousel>
+            {/* </div> */}
 
 
-<div className="section" id='home'>
-            <div className="container-fluid  letest" >
+
+            <div className="container-fluid  letest" id='home'>
                 <div className="container" >
                     <div className="row">
                         <div className="col-lg-7" data-aos="zoom-in" data-aos-duration="3000">
@@ -229,23 +227,20 @@ function Home() {
                     </div>
                 </div>
             </div>
-            </div>
 
 
-
-            <div className="section" id='about'>
-            <div className="container-fluid fountion" >
-                <div className="container pt-5">
+            <div className="container-fluid  fountion" id='about'>
+                <div className="container page pt-5">
                     <div className="row pt-5 ">
                         <div className="col-lg-5 pt-5" data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Foundation: Pillars of Trust</h1>
-                            <p className='discription pe-5'>
+                            <p className='discription'>
                                 Maruti Export was built on the foundation of four key pillars -faith, trust, honesty & transparency.
                                 The 4 main pillars are on which the foundation of the Maruti Export was built and will sustain forever.
                             </p>
                         </div>
                         <div className="col-lg-7">
-                            <div className='img-stak position-relative pt-5'data-aos="fade-left" data-aos-duration="3000" >
+                            <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000" >
                                 {/* <img src={dote2Image} alt="" className="img-fluid rounded-4  stak-img imag-1" /> */}
                                 <img src={fount2Image} alt="" className="img-fluid rounded-4  stak-img imag-2" />
                                 <img src={fount3Image} alt="" className="img-fluid rounded-4  stak-img  imag-3" />
@@ -255,10 +250,10 @@ function Home() {
                     </div>
                 </div>
             </div>
-            </div>
 
 
-            <div className="container-fluid section misson" >
+
+            <div className="container-fluid  misson" >
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7" >
@@ -283,7 +278,7 @@ function Home() {
 
 
 
-            <div className="container-fluid section shep bg-light" id='Shapes'>
+            <div className="container-fluid  shep bg-light" id='Shapes'>
                 <a href="#shap" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
                     <h1 className='menu-bottom-line'>Shapes</h1> </a>
                 <div className="row d-flex p-2">
@@ -296,13 +291,13 @@ function Home() {
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond2Img} alt="dimond2"  className=' shadow'  />
+                            <img src={dimond2Img} alt="dimond2" className=' shadow' />
                             <p className="p-3  dim"> Oval</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond3Img} alt="dimond3"  className=' shadow'  />
+                            <img src={dimond3Img} alt="dimond3" className=' shadow' />
                             <p className="p-3  dim"> Emerald</p>
                         </a>
                     </div>
@@ -326,7 +321,7 @@ function Home() {
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond7Img} alt="dimond7" className=' shadow'/>
+                            <img src={dimond7Img} alt="dimond7" className=' shadow' />
                             <p className="p-3  dim"> Princess</p>
                         </a>
                     </div>
@@ -338,7 +333,7 @@ function Home() {
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond9Img} alt="dimond9" className=' shadow'/>
+                            <img src={dimond9Img} alt="dimond9" className=' shadow' />
                             <p className="p-3 dim"> Asscher</p>
                         </a>
                     </div>
@@ -353,13 +348,12 @@ function Home() {
             </div>
 
 
-
             <div className="container-fluid vision" id='Quality'>
                 <div className="container mt-5">
                     <div className="row mt-5">
-                        <div className="col-lg-5 pt-5"  data-aos="fade-right" data-aos-duration="3000">
+                        <div className="col-lg-5 pt-5" data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Our Vision: Shaping the Future of Diamonds</h1>
-                            <p className='discription pe-5'>
+                            <p className='discription '>
                                 Maruti Export's vision is to adopt the latest manufacturing technology and innovative management concepts to become the world's leading diamond
                                 manufacturer, and become the world's most valued company by setting industry standards for the highest quality and most efficient diamonds.
                             </p>
@@ -381,7 +375,7 @@ function Home() {
                 <div className="container ">
                     <div className="row pt-5">
                         <div className="col-lg-7" >
-                            <div className='img-stak position-relative pt-5'  data-aos="zoom-in" data-aos-duration="3000">
+                            <div className='img-stak position-relative pt-5' data-aos="zoom-in" data-aos-duration="3000">
                                 {/* <img src={dote5Image} alt="" className="img-fluid rounded-4  stak-img iamg11" /> */}
                                 <img src={cult21Image} alt="" className="img-fluid rounded-4  stak-img iamg12" />
                                 <img src={cult22Image} alt="" className="img-fluid stak-img rounded-4 iamg13" />
@@ -551,7 +545,7 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-5 " data-aos="fade-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Selecting and Sorting: The First Step</h1>
-                            <p className='discription pe-5'>
+                            <p className='discription'>
                                 The first and vital step in the diamond cutting and polishing process is the analysis of the rough diamond. This step requires
                                 all-consuming imagination, skill, and precision, by an experienced diamond cutter. The optimum cut for the diamond is chosen after assessing
                                 its size, shape, clarity, and crystal direction in order to maximize its final value and beauty. At Maruti Export, we ensure that each rough is
@@ -583,7 +577,7 @@ function Home() {
                         </div>
                         <div className="col-lg-4" data-aos="fade-right" data-aos-duration="3000">
                             <h1 className='secondhead'>Marking: Precision for Perfection</h1>
-                            <p className='discription pt-2'>
+                            <p className='discription '>
                                 One of the most important phases in the production process is marking. It is accomplished by the use of 3D laser technology.
                                 Incorrect marking by a fraction of a millimeter can have a significant influence on the finished gem's quality. Every rough
                                 contains impurities that must be removed in order to optimize the rough gemstone's output and reduce waste.
@@ -599,7 +593,7 @@ function Home() {
                     <div className="row">
                         <div className="col-lg-5 " data-aos="fade-left" data-aos-duration="3000">
                             <h1 className='secondhead pt-3'>Sawing: Shaping the Diamond</h1>
-                            <p className='discription pe-5'>
+                            <p className='discription '>
                                 Sawing is the process of separating a diamond rough into separate pieces that will be polished as individual diamonds. During the design stage,
                                 our artisans identify the sawing planes. At Maruti Export, we utilize the most recent high-quality laser sawing machines to cut raw diamonds
                                 extremely precisely and accurately, in line with the appropriate cutting plans. This approach saves time and reduces human error to virtually
@@ -609,9 +603,9 @@ function Home() {
                         <div className="col-lg-7">
                             <div className='img-stak position-relative pt-5' data-aos="fade-left" data-aos-duration="3000">
                                 {/* <img src={dot2Image} alt="" className="img-fluid rounded-4  stak-img imag41" /> */}
-                                <img src={saw11Image} alt="" className="img-fluid rounded-4  stak-img imag42" />
-                                <img src={saw12Image} alt="" className="img-fluid rounded-4  stak-img  imag43" />
-                                <img src={saw13Image} alt="rufe" className="img-fluid rounded-4  stak-img imag44" />
+                                <img src={saw11Image} alt="" className="img-fluid rounded-4  stak-img ima-g42" />
+                                <img src={saw12Image} alt="" className="img-fluid rounded-4  stak-img  ima-g43" />
+                                <img src={saw13Image} alt="rufe" className="img-fluid rounded-4  stak-img ima-g44" />
                             </div>
                         </div>
                     </div>
@@ -646,7 +640,7 @@ function Home() {
 
             <div className="container-fluid infox" id='Contect'>
                 <div className="container p-3">
-                    <div className="row text-light py-3">
+                    <div className="row text-light">
                         <div className="row text-light">
 
                             <div className="col-lg-3">
@@ -694,10 +688,8 @@ function Home() {
                                             <span class="button__text">Login </span>
                                             <FaArrowRightLong className='button__icon m-1' />
                                         </button>
-
                                     </div>
                                 </form>
-
                             </div>
                         </div>
                     </div>

@@ -63,7 +63,7 @@ html {
 .carsolimg-4 {
   z-index: 4;
   top: 470px;
-  left: 1410px;
+  left: 1417px;
 }
 
 
@@ -704,8 +704,6 @@ html {
   left: 315px;
 }
 
-
-
 .infox {
   padding: 50px;
   margin-top: 5%;
@@ -769,9 +767,6 @@ ul li a {
 
 
 
-
-
-
 @media (max-width: 768px) {
   col-8 {
     text-align: end;
@@ -796,19 +791,6 @@ ul li a {
     padding: 10px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 576px) {
@@ -850,16 +832,15 @@ ul li a {
 .carsolimg-3 {
     z-index: 3;
     top: -260px;
-    left: 47px;
+    left: 50px;
 }
 .carsolimg-4 {
     z-index: 4;
-    top: -400px;
-    left: 150px;
+    top: -420px;
+    left: 157px;
 }
 .carsol {
   height: 500px;
-  background-image: url(./assets/Images/Home/shepandpro-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1020,7 +1001,6 @@ ul li a {
   }
 
 
-
   .iamg2 {
     z-index: 3;
     width: 55%;
@@ -1042,40 +1022,29 @@ ul li a {
     left: 85px;
   }
 
-
-  .shep {
-    padding: 20px 0;
-    text-align: center;
-  }
-
   .row.d-flex {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     flex-direction: column; 
     align-items: center; 
   }
 
   .col-1 {
-    flex-basis: 100%; 
-     /* margin-bottom: 15px;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .col-1 img {
-    width: 100%; 
-    height: auto;
-    margin: 0 auto;
+  .dim {
+    margin-top: 5px;
+    font-size: 15px;
   }
-
-  .col-1 p {
+  
+  .shep {
+    padding: 20px 10px;
     text-align: center;
-    font-size: 16px;
   }
-
-  /* .dim {
-    padding: 0;
-  } */
-
-
-
-
 
   .imag4-2 {
     z-index: 1;
@@ -1244,6 +1213,4 @@ ul li a {
   .infox .button--animated {
     width: 50%;
   }
-
-
 }

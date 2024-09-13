@@ -12,7 +12,7 @@ import { IoCall } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import contectlogoImg from '../assets/Images/Home/LogoWhite.png'
-import { Carousel } from 'react-bootstrap';
+import { Carousel, NavbarToggle } from 'react-bootstrap';
 import "../Pages/scroll.js"
 
 import card11Image from '../assets/Images/Home/card111.jpg';
@@ -23,14 +23,12 @@ import card15Image from '../assets/Images/Home/diamond-polishing.jpg';
 import card16Image from '../assets/Images/Home/cardimg-222.jpg';
 
 // import video from '../assets/Images/Home/video/video12.jpg'
-
 import carousel11 from '../assets/Images/Home/carsolimg-2.jpg'
 import carousel12 from '../assets/Images/Home/shapesdimnd-2.jpg'
 import carousel13 from '../assets/Images/Home/shapesdimnd-3.jpg'
 import carousel14 from '../assets/Images/Home/carsolimg-5.jpg'
 
 import carousel2 from '../assets/Images/Home/carsolimg-3.jpg'
-
 
 import carousel31 from '../assets/Images/Home/photoescarsol-156.jpg'
 import carousel32 from '../assets/Images/Home/photoescarsol-177.jpg'
@@ -130,7 +128,7 @@ function Home() {
                             {/* <div className="col-4"></div> */}
                             <div className="col-8">
                                 <Navbar collapseOnSelect expand="lg" justify-content-end>
-                                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                                    <NavbarToggle/>
                                     <Navbar.Collapse id="responsive-navbar-nav">
                                         <div className=" menu menu-2 ">
                                             <Nav className="d-flex justify-content-end">
@@ -157,16 +155,11 @@ function Home() {
 
 
 
-
-
-
-
             <div className="container-fluid  text-center pt-5 ">
                 <a className="" href='' ><img src={logoImage} alt="logo" className="p-3 logo text-black" /></a>
             </div>
 
 
-            {/* <div className="container-fluid"> */}
             <Carousel className='carsol' fade>
                 <Carousel.Item className='carsol-item'>
                     <div className="img-stak position-relative">
@@ -200,7 +193,6 @@ function Home() {
                 </Carousel.Item>
 
             </Carousel>
-            {/* </div> */}
 
 
 
@@ -285,61 +277,61 @@ function Home() {
                     <div className="col-1"></div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond1Img} alt="dimond1" className=' shadow' />
+                            <img src={dimond1Img} alt="dimond1" className='rounded-3 shadow' />
                             <p className="p-3 dim"> Round</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond2Img} alt="dimond2" className=' shadow' />
+                            <img src={dimond2Img} alt="dimond2" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Oval</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond3Img} alt="dimond3" className=' shadow' />
+                            <img src={dimond3Img} alt="dimond3" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Emerald</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond4Img} alt="dimond4" className=' shadow' />
+                            <img src={dimond4Img} alt="dimond4" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Cushion</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond5Img} alt="dimond5" className=' shadow' />
+                            <img src={dimond5Img} alt="dimond5" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Pear</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond6Img} alt="dimond6" className=' shadow' />
+                            <img src={dimond6Img} alt="dimond6" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Radiant</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond7Img} alt="dimond7" className=' shadow' />
+                            <img src={dimond7Img} alt="dimond7" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Princess</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond8Img} alt="dimond8" className=' shadow' />
+                            <img src={dimond8Img} alt="dimond8" className='rounded-3 shadow' />
                             <p className="p-3  dim"> Marquise</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond9Img} alt="dimond9" className=' shadow' />
+                            <img src={dimond9Img} alt="dimond9" className='rounded-3 shadow' />
                             <p className="p-3 dim"> Asscher</p>
                         </a>
                     </div>
                     <div className="col-1">
                         <a href="" className="text-decoration-none">
-                            <img src={dimond10Img} alt="dimond10" className=' shadow' />
+                            <img src={dimond10Img} alt="dimond10" className='rounded-3 shadow' />
                             <p className="p-3 dim"> Heart</p>
                         </a>
                     </div>

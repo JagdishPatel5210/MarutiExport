@@ -24,22 +24,25 @@ import card15Image from '../assets/Images/Home/diamond-polishing.jpg';
 import card16Image from '../assets/Images/Home/cardimg-222.jpg';
 
 // import video from '../assets/Images/Home/video/video12.jpg'
-import carousel11 from '../assets/Images/Home/carsolimg-2.jpg'
-import carousel12 from '../assets/Images/Home/shapesdimnd-2.jpg'
-import carousel13 from '../assets/Images/Home/shapesdimnd-3.jpg'
-import carousel14 from '../assets/Images/Home/carsolimg-5.jpg'
+import carousel11 from '../assets/Images/Home/carsolimage.1 (2).jpg'
+// import carousel12 from '../assets/Images/Home/shapesdimnd-2.jpg'
+// import carousel13 from '../assets/Images/Home/shapesdimnd-3.jpg'
+// import carousel14 from '../assets/Images/Home/carsolimg-5.jpg'
 
 import carousel2 from '../assets/Images/Home/carsolimg-3.jpg'
 
-import carousel31 from '../assets/Images/Home/photoescarsol-156.jpg'
-import carousel32 from '../assets/Images/Home/photoescarsol-177.jpg'
-import carousel33 from '../assets/Images/Home/photoescarsol-166.jpg'
-import carousel34 from '../assets/Images/Home/photoescarsol-188.jpg'
+import carousel31 from '../assets/Images/Home/carsolimage.4.jpg'
+// import carousel32 from '../assets/Images/Home/photoescarsol-177.jpg'
+// import carousel33 from '../assets/Images/Home/photoescarsol-166.jpg'
+// import carousel34 from '../assets/Images/Home/photoescarsol-188.jpg'
 
 import carousel41 from '../assets/Images/Home/carsolimage-1.jpg'
 import carousel42 from '../assets/Images/Home/carsolimage-3i.jpg'
 import carousel43 from '../assets/Images/Home/photoescarsol-144.jpg'
 import carousel44 from '../assets/Images/Home/carsolimage3a.jpg'
+
+import carousel51 from '../assets/Images/Home/carsolimage-3.jpg'
+
 
 // import car1img from'../assets/Images/Home/shapesdimnd-2.jpg'
 // import car2img from'../assets/Images/Home/shapesdimnd-3.jpg'
@@ -160,12 +163,13 @@ function Home() {
 
             <Carousel className='carsol' fade>
                 <Carousel.Item className='carsol-item'>
-                    <div className="img-stak position-relative">
+                    <img src={carousel11} alt="first slide" className="w-100  diamonda" />
+                    {/* <div className="img-stak position-relative">
                         <img src={carousel11} alt="first slide" className="w-25  img-fluid stak-img carsolimg-1" />
                         <img src={carousel12} alt="first slide" className="w-25  h-75 img-fluid stak-img carsolimg-2" />
                         <img src={carousel13} alt="first slide" className="w-25 h-75 img-fluid stak-img carsolimg-3" />
                         <img src={carousel14} alt="first slide" className="w-25 img-fluid stak-img carsolimg-4" />
-                    </div>
+                    </div> */}
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
@@ -173,21 +177,26 @@ function Home() {
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
-                    <div className="img-stak position-relative">
+                     <img src={carousel31} alt="therd slide" className="w-100 diamonda" />
+                    {/* <div className="img-stak position-relative">
                         <img src={carousel31} alt="first slide" className="w-25 img-fluid stak-img secimg-5" />
                         <img src={carousel32} alt="first slide" className="w-25 img-fluid stak-img secimg-6" />
                         <img src={carousel33} alt="first slide" className="w-25 img-fluid stak-img secimg-7" />
                         <img src={carousel34} alt="first slide" className="w-25 img-fluid stak-img secimg-8" />
-                    </div>
+                    </div> */}
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
                     <div className="img-stak position-relative">
-                        <img src={carousel41} alt="first slide" className="w-25 img-fluid stak-img secimg-1" />
-                        <img src={carousel42} alt="first slide" className="w-25 img-fluid stak-img secimg-2" />
-                        <img src={carousel43} alt="first slide" className="w-25 img-fluid stak-img secimg-3" />
-                        <img src={carousel44} alt="first slide" className="w-25 img-fluid stak-img secimg-4" />
+                        <img src={carousel41} alt="fourth slide" className="w-25 img-fluid stak-img secimg-1" />
+                        <img src={carousel42} alt="fourth slide" className="w-25 img-fluid stak-img secimg-2" />
+                        <img src={carousel43} alt="fourth slide" className="w-25 img-fluid stak-img secimg-3" />
+                        <img src={carousel44} alt="fourth slide" className="w-25 img-fluid stak-img secimg-4" />
                     </div>
+                </Carousel.Item>
+
+                <Carousel.Item className='carsol-item'>
+                    <img src={carousel51} alt="fifth slide" className="w-100   diamonda" />
                 </Carousel.Item>
             </Carousel>
 

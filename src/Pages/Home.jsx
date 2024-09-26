@@ -11,6 +11,7 @@ import { IoEarthSharp } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { IoMenu } from "react-icons/io5";
 import contectlogoImg from '../assets/Images/Home/LogoWhite.png'
 import { Carousel, NavbarToggle } from 'react-bootstrap';
 import "../Pages/scroll.js"
@@ -35,14 +36,10 @@ import carousel32 from '../assets/Images/Home/photoescarsol-177.jpg'
 import carousel33 from '../assets/Images/Home/photoescarsol-166.jpg'
 import carousel34 from '../assets/Images/Home/photoescarsol-188.jpg'
 
-import carousel41 from '../assets/Images/Home/photoescarsol-155.jpg'
-import carousel42 from '../assets/Images/Home/photoescarsol-151.jpg'
+import carousel41 from '../assets/Images/Home/carsolimage-1.jpg'
+import carousel42 from '../assets/Images/Home/carsolimage-3i.jpg'
 import carousel43 from '../assets/Images/Home/photoescarsol-144.jpg'
-import carousel44 from '../assets/Images/Home/photoescarsol-157.jpg'
-
-
-import carousel3 from '../assets/Images/Home/carsolimg-11.jpg'
-import carousel4 from '../assets/Images/Home/carsolimg-113.jpg'
+import carousel44 from '../assets/Images/Home/carsolimage3a.jpg'
 
 // import car1img from'../assets/Images/Home/shapesdimnd-2.jpg'
 // import car2img from'../assets/Images/Home/shapesdimnd-3.jpg'
@@ -111,6 +108,8 @@ import dimond9Img from "../assets/Images/Home/dimond-29.jpg";
 import dimond10Img from "../assets/Images/Home/dimond-30.jpg";
 
 
+
+
 function Home() {
     const goToLogin = () => {
         debugger
@@ -121,16 +120,15 @@ function Home() {
     return (
         <>
             <div data-aos="fade-right"></div>
-            <div className="container-fluid " >
+            <div className="container-fluid">
                 <div className="nav1">
                     <div className="container">
                         <div className="row d-flex flex-row-reverse">
-                            {/* <div className="col-4"></div> */}
                             <div className="col-8">
-                                <Navbar collapseOnSelect expand="lg" justify-content-end>
-                                    <NavbarToggle/>
+                                <Navbar collapseOnSelect expand="lg" className=' justify-content-end'>
+                                    <NavbarToggle aria-controls="responsive-navbar-nav"><IoMenu className='text-white fs-1'/></NavbarToggle>
                                     <Navbar.Collapse id="responsive-navbar-nav">
-                                        <div className=" menu menu-2 ">
+                                        <div className=" menu menu-2">
                                             <Nav className="d-flex justify-content-end">
                                                 <Nav.Link href="#home" className='text-light px-4 menu-line'>Home</Nav.Link>
                                                 <Nav.Link href="#about" className='text-light px-4 menu-line'>About</Nav.Link>
@@ -191,7 +189,6 @@ function Home() {
                         <img src={carousel44} alt="first slide" className="w-25 img-fluid stak-img secimg-4" />
                     </div>
                 </Carousel.Item>
-
             </Carousel>
 
 
@@ -245,7 +242,7 @@ function Home() {
 
 
 
-            <div className="container-fluid  misson" >
+            <div className="container-fluid  misson">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7" >
@@ -397,8 +394,6 @@ function Home() {
             <div className="container-fluid conte bg-light" id='Process'>
                 <a href="#poss" className=" fs-2 text-decoration-none text-center p-5 das-1 ">
                     <h1 className='menu-bottom-line'>Process</h1> </a>
-
-
                 <div className="row">
                     <div className="col-lg-2"  >
                         <div class="container1">
@@ -415,8 +410,6 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="col-lg-2" >
                         <div class="container1">
                             <div class="card border-0 bg-light">
@@ -433,7 +426,6 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-2">
                         <div class="container1">
                             <div class="card border-0 bg-light">
@@ -450,7 +442,6 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-2">
                         <div class="container1">
                             <div class="card border-0 bg-light">
@@ -467,12 +458,11 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-2">
                         <div class="container1">
                             <div class="card border-0 bg-light ">
                                 <div class="face face1">
-                                    <div class="content">  <img src={card15Image} alt="" className="w-100 image" /> </div>
+                                    <div class="content">  <img src={card15Image} alt="" className="w-100 image"/> </div>
                                 </div>
                                 <div class="face face2">
                                     <div class="content">
@@ -484,12 +474,11 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-lg-2">
                         <div class="container1">
                             <div class="card border-0 bg-light">
                                 <div class="face face1">
-                                    <div class="content">   <img src={card16Image} alt="" className="w-100" />  </div>
+                                    <div class="content">   <img src={card16Image} alt="" className="w-100"/> </div>
                                 </div>
                                 <div class="face face2">
                                     <div class="content">
@@ -503,6 +492,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+
 
 
             <div className="container-fluid Craft" id='craftmanship'>

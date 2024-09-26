@@ -51,13 +51,13 @@ html {
 .carsolimg-2 {
   z-index: 2;
   top: 15px;
-  left: 0px;
+  left: 10px;
 }
 
 .carsolimg-3 {
   z-index: 3;
   top: 110px;
-  left: 940px;
+  left: 942px;
 }
 
 .carsolimg-4 {
@@ -190,7 +190,6 @@ html {
 }
 
 .discription {
-  /* padding-right: 5%; */
   margin: 25px;
   color: var(--grey);
   font-size: 19px;
@@ -278,7 +277,7 @@ html {
   z-index: 3;
   width: 55%;
   top: 45px;
-  left: 240px;
+  left: 237px;
 }
 
 .misson {
@@ -590,7 +589,7 @@ html {
   z-index: 3;
   width: 52%;
   top: -30px;
-  left: 265px;
+  left: 260px;
 }
 
 .marking {
@@ -822,17 +821,17 @@ ul li a {
   .carsolimg-1 {
     z-index: 1;
     top: 170px;
-    left: -50px;
+    left: -45px;
 }
 .carsolimg-2 {
     z-index: 2;
     top: -100px;
-    left: -150px;
+    left: -148px;
 }
 .carsolimg-3 {
     z-index: 3;
     top: -260px;
-    left: 50px;
+    left: 55px;
 }
 .carsolimg-4 {
     z-index: 4;
@@ -850,20 +849,19 @@ ul li a {
   align-items: center;
 }
 .carsol img {
-  width: 100%; 
+  width: 75%; 
   margin-bottom: 1rem; 
 }
 .carsol .diamonda {
   width: 100%; 
   height: 63%;
-
 }
-.carsol-item {
+/* .carsol-item {
   min-height: 200px;
-}
+} */
 
 .car{
-  height: 500px;
+  height: 300px;
 }
 
 

@@ -14,7 +14,8 @@ import { IoMdMail } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import contectlogoImg from '../assets/Images/Home/LogoWhite.png'
 import { Carousel, NavbarToggle } from 'react-bootstrap';
-import "../Pages/scroll.js"
+import "../Pages/scroll.js";
+import "../Pages/Carsousel.js";
 
 import card11Image from '../assets/Images/Home/card111.jpg';
 import card12Image from '../assets/Images/Home/cardimg12a.jpg';
@@ -23,26 +24,27 @@ import card14Image from '../assets/Images/Home/cardimg.webp';
 import card15Image from '../assets/Images/Home/diamond-polishing.jpg';
 import card16Image from '../assets/Images/Home/cardimg-222.jpg';
 
-// import video from '../assets/Images/Home/video/video12.jpg'
-import carousel11 from '../assets/Images/Home/carsolimage-11.jpg'
+// import video from '../assets/Images/Home/video/video12.jpg';
+
+import carousel11 from '../assets/Images/Home/carsolimage-3.jpg';
+
 // import carousel12 from '../assets/Images/Home/shapesdimnd-2.jpg'
 // import carousel13 from '../assets/Images/Home/shapesdimnd-3.jpg'
 // import carousel14 from '../assets/Images/Home/carsolimg-5.jpg'
 
-import carousel2 from '../assets/Images/Home/carsolimg-3.jpg'
+import carousel2 from '../assets/Images/Home/carsolimg-3.jpg';
 
-import carousel31 from '../assets/Images/Home/carsolimage.4.jpg'
+import carousel31 from '../assets/Images/Home/carsolimage.4.jpg';
 // import carousel32 from '../assets/Images/Home/photoescarsol-177.jpg'
 // import carousel33 from '../assets/Images/Home/photoescarsol-166.jpg'
 // import carousel34 from '../assets/Images/Home/photoescarsol-188.jpg'
 
-import carousel41 from '../assets/Images/Home/carsolimage-1.jpg'
-import carousel42 from '../assets/Images/Home/carsolimage-3i.jpg'
-import carousel43 from '../assets/Images/Home/photoescarsol-144.jpg'
-import carousel44 from '../assets/Images/Home/carsolimage3a.jpg'
+import carousel41 from '../assets/Images/Home/carsolimage-1.jpg';
+import carousel42 from '../assets/Images/Home/carsolimage-3i.jpg';
+import carousel43 from '../assets/Images/Home/photoescarsol-144.jpg';
+import carousel44 from '../assets/Images/Home/carsolimage3a.jpg';
 
-import carousel51 from '../assets/Images/Home/carsolimage-3.jpg'
-
+import carousel51 from '../assets/Images/Home/carsolimage-11.jpg';
 
 // import car1img from'../assets/Images/Home/shapesdimnd-2.jpg'
 // import car2img from'../assets/Images/Home/shapesdimnd-3.jpg'
@@ -118,6 +120,15 @@ function Home() {
         debugger
         window.location.href = 'http://app.marutiexp.com/login';
     }
+//   document.addEventListener('DOMContentLoaded', () => {
+//         const container = document.getElementById('app');
+//         if (container) {
+//           const root = createRoot(container);
+//           root.render(<App />);
+//         } else {
+//           console.error("Root element with id 'app' not found!");
+//         }
+// });
 
 
     return (
@@ -196,7 +207,7 @@ function Home() {
                 </Carousel.Item>
 
                 <Carousel.Item className='carsol-item'>
-                    <img src={carousel51} alt="fifth slide" className="w-100   diamonda" />
+                    <img src={carousel51} alt="fifth slide" className="w-100  diamonda" />
                 </Carousel.Item>
             </Carousel>
 
